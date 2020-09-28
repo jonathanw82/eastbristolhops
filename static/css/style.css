@@ -1,7 +1,10 @@
 
 .navbar{
     background-color: black;
+}
 
+#navtogglericon{
+    color: white;
 }
 
 .logonavbar{
@@ -9,7 +12,7 @@
 }
 
 .nav-link{
-    color: #DCE122;
+    color:#C6AE34;
     font-size: 2rem;
     font-family: 'Unkempt', cursive;
     padding-left: 20px!important;
@@ -20,13 +23,27 @@
     color: #F79767;
 }
 
+.navspaceright{
+    margin-left: 20px;
+}
+
+.navspaceleft{
+    margin-right: 20px;
+}
+
 .ebhlogo{
     width: 300px;
     height: auto;
     padding-top: 10px;
-} 
+}
 
-
+.hop{
+    width: 80px;
+    height: auto;
+    padding-top: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
 
 footer{
     background-color: black;
@@ -39,7 +56,7 @@ footer{
 }
 
 .footer-icon{
-    color: white;
+    color:#C6AE34;
     font-size: 1.5rem;
 }
 
@@ -48,7 +65,53 @@ footer{
 }
 
 .copyright-footer{
-    color: white;
+    color:#F79767;
     font-size: 1.1rem;
     font-family: 'Unkempt', cursive;
 }
+
+/* ------------------- Media Queries base.html -----------------*/
+
+@media only screen and (min-width: 768px){
+/* 
+    .nav-name-mobile{
+        display: none;
+    }
+
+    .nav-name-mobile1{
+        display: none;
+    } */
+}
+
+
+@media only screen and (max-width: 768px){
+    .hop{
+        display: none;
+    }
+    .ebhlogo{
+        display: none;
+    }
+    .navspaceright{
+        margin-left: 0px;
+    }
+
+}    
+
+
+@media only screen and (max-width: 425px){
+  
+ 
+
+}    
+
+@media only screen and (max-width: 375px){
+
+    
+
+   
+}    
+
+@media only screen and (max-width: 320px){
+
+   
+}    

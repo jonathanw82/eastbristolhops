@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+}
+
+.landingimage{
+    width: 40%;
+    height: auto;
+}
+
+.landingimagediv{
+    text-align: center;
+}
+
+
+/* ------------------- Media Queries -----------------*/
+
+@media only screen and (min-width: 768px){
+  
+}
+    
+@media only screen and (max-width: 768px){
+  
+}    
+    
+@media only screen and (max-width: 425px){
+      
+}    
+    
+@media only screen and (max-width: 375px){
+       
+}    
+    
+@media only screen and (max-width: 320px){
+     
+}    
