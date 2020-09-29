@@ -2,10 +2,6 @@
     background-color: black;
 }
 
-#navtogglericon{
-    color: white;
-}
-
 .logonavbar{
     justify-content: center;
 }
@@ -82,8 +78,16 @@ footer{
     } */
 }
 
+@media only screen and (min-width: 769px){
+
+    #mobilelogo{
+        display: none;
+    }
+}
+
 
 @media only screen and (max-width: 768px){
+
     .hop{
         display: none;
     }
@@ -93,26 +97,65 @@ footer{
     .navspaceright{
         margin-left: 0px;
     }
-
-}    
+    #mobilelogo{
+        display: block;
+    }
+    .ebhlogomodile{
+        width: 250px!important;
+        height: auto!important;
+    }
+    button:focus{
+        outline: none;
+    }
+    #navtogglericon{
+        color: white;
+        font-size: 2rem;
+        margin-top: 8px;
+    }
+    .nav-link{
+        font-size: 1.8rem;
+    }
+}     
 
 
 @media only screen and (max-width: 425px){
-  
- .underconstruction{
-     width: 80%;
- }
 
+    .underconstruction{
+        width: 80%;
+    }
+    .ebhlogomodile{
+        width: 240px!important;
+        height: auto!important;
+    }
+    #navtogglericon{
+        color: white;
+        font-size: 1.9rem;
+        margin-top: 10px;
+    }
+    .nav-link{
+        font-size: 1.5rem;
+    }
 }    
+   
 
 @media only screen and (max-width: 375px){
 
-    
 
-   
 }    
+
 
 @media only screen and (max-width: 320px){
 
-   
+    .ebhlogomodile{
+        width: 200px!important;
+        height: auto!important;
+    }
+    .nav-link{
+        font-size: 1.5rem;
+    }
+    #navtogglericon{
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
 }    
