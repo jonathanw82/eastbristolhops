@@ -1,3 +1,5 @@
+
+/* ------------------- Navbar -----------------*/
 .navbar{
     background-color: black;
 }
@@ -40,6 +42,8 @@
     padding-right: 8px;
 }
 
+/* ------------------- Footer -----------------*/
+
 footer{
     background-color: black;
     padding-top: 3px;
@@ -67,6 +71,27 @@ footer{
 
 /* ------------------- Media Queries base.html -----------------*/
 
+@media only screen and (max-width: 1024px){
+
+    .nav-link{
+        font-size: 1.7rem;
+    }
+    .ebhlogo{
+        width: 270px;
+        height: auto;
+        padding-top: 10px;
+    }
+    
+    .hop{
+        width: 70px;
+        height: auto;
+        padding-top: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+}
+
 @media only screen and (min-width: 768px){
 /* 
     .nav-name-mobile{
@@ -83,6 +108,7 @@ footer{
     #mobilelogo{
         display: none;
     }
+   
 }
 
 
