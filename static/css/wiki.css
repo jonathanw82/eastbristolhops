@@ -28,11 +28,26 @@ p{
 }
 
 .wikisub-heading{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .paragarphheading{
     font-family: 'Unkempt', cursive;
+    text-align: center;
+}
+
+.paragarphsubheading{
+    font-family: 'Unkempt', cursive;
+    text-decoration: underline;
+}
+
+.soilphvideo{
+    text-align: center;
+}
+
+.soilphvideoplayer{
+    width:420px;
+    height:315px;
 }
 
 .wikibox{
