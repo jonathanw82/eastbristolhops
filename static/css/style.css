@@ -81,7 +81,6 @@ footer{
         height: auto;
         padding-top: 10px;
     }
-    
     .hop{
         width: 70px;
         height: auto;
@@ -89,7 +88,6 @@ footer{
         padding-left: 8px;
         padding-right: 8px;
     }
-
 }
 
 @media only screen and (min-width: 768px){

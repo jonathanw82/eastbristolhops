@@ -1,4 +1,60 @@
+body{ 
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.wikicontainer{
+    margin-bottom: 50px;
+}
+
+.horizontalrule{
+    color: blanchedalmond;
+}
+
+.card{
+    height: 100px;
+}
+
+.bttButton:hover{
+    border: 1px solid white;
+}
+
 .wikiheading{
     font-family: 'Unkempt', cursive;
     text-align: center;
+}
+
+.wikisub-heading{
+    font-size: 1.5rem;
+}
+
+.paragarphheading{
+    font-family: 'Unkempt', cursive;
+}
+
+.wikibox{
+    color: #fff;
+    background-color: rgba(60,60,60,0.8);
+    width: 60%;
+    height: auto; 
+    padding: 30px; 
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.background_image_wiki{
+    background-image: url('/static/media/adobestock_209712791.jpg');                      
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    min-height: 100vh;
 }

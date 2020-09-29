@@ -15,16 +15,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@300&family=Roboto&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Unkempt:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Unkempt:wght@700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="{{url_for ('static', filename='favicon.ico')}}">
     <link rel="stylesheet" href="{{url_for ('static', filename='css/style.css')}}" type="text/css">
+
     {% block css %}
     {% endblock %}
 
     {% block js %}
     {% endblock %}
+
     <title>{% block title %}{%endblock%}</title>
 </head>
 
@@ -66,10 +66,9 @@
     </header>
 
     {% block content%}
-
-
-
+      <!-- Where the html content will appear! -->
     {% endblock %}
+
     <footer>
         <div class="container-fluid">
             <div class="row">

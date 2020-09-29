@@ -11,7 +11,8 @@ def index():
 
 @app.route('/wiki')
 def wiki():
-    return render_template("wiki.html", page_title="Wiki")
+    return render_template("wiki.html", page_title="Wiki",
+                           background='background_image_wiki')
 
 
 @app.route('/about')
