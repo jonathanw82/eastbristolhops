@@ -25,16 +25,18 @@ function showvideos(){
     // of the show videos button to hide videos.
     // It also changes the value of the button to a different name.
 
-    document.getElementById('videos').innerHTML = `<hr color="white"><div class="row"><div class="col-sm-6"><div class="soilphvideo">
-            <div>Torsi Wooldridge on soil PH</div><iframe class="soilphvideoplayer" src="https://www.youtube.com/embed/h-IsLZCmWEY" \ frameborder="1"
+    document.getElementById('videos').innerHTML = `<div class="row"><div class="col-sm-6"><div class="soilphvideo">
+            <div class="videoheading">Torsi Wooldridge on soil PH</div><iframe class="soilphvideoplayer" src="https://www.youtube.com/embed/h-IsLZCmWEY" \ frameborder="1"
                     allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
-            </div></div><div class="col-sm-6"><div class="soilphvideo"><div>How to use a PH meter</div>  
+            </div></div><div class="col-sm-6"><div class="soilphvideo"><div class="videoheading">How to use a PH meter</div>  
             <iframe class="soilphvideoplayer" src="https://www.youtube.com/embed/Xu2qVNiG300" frameborder="1"
-                    allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div></div><hr color="white">`;
+                    allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div></div>`;
 
     document.getElementById('showvidbutton').setAttribute('onclick','hidevideos()');
     let butname = document.getElementById('showvidbutton');
     butname.value = "Hide Videos";
+    butname.classList.add("vidbut"); // addes a class to the button after the js injection to move the lower margin.
+
 };
 
 /* This function will hide the video section on the wiki page */

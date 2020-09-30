@@ -68,6 +68,14 @@ p{
 }
 
 /* ----------------------- wiki videos ------------------------*/
+.showvidbutton{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.vidbut{
+    margin-bottom: 20px;
+}
 
 .soilphvideo{
     text-align: center;
@@ -76,6 +84,12 @@ p{
 .soilphvideoplayer{
     width:250px;
     height:215px;
+}
+
+.videoheading{
+    font-size: 1.5rem;
+    font-family: 'Unkempt', cursive;
+    color: #F79767;
 }
 
 /* ------------------ Scroll to top button --------------------*/
@@ -106,6 +120,20 @@ p{
 }
 
 /* ------------------- Media Queries base.html -----------------*/
+
+@media only screen and (min-width: 2560px){
+
+    .scrollToTop{
+        right:300px;
+    }
+}
+
+@media only screen and (max-width: 2556px){
+
+    .scrollToTop{
+        right:100px;
+    }
+}
 
 @media only screen and (max-width: 1440px){
 
@@ -194,5 +222,8 @@ p{
     }
     .scrollToTop{
         top:450px;
+    }
+    .videoheading{
+        font-size: 1.3rem;
     }
 }
