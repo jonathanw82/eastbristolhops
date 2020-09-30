@@ -1,20 +1,78 @@
-{% extends 'base.html' %} 
-{% block title %} {{ page_title }} {% endblock %} 
+{% extends 'base.html' %}
+{% block title %} {{ page_title }} {% endblock %}
 
-{% block css %} 
-    <link rel="stylesheet" href="{{url_for ('static', filename='css/landingpage.css')}}" type="text/css">
-{% endblock %} 
+{% block css %}
+<link rel="stylesheet" href="{{url_for ('static', filename='css/landingpage.css')}}" type="text/css">
+{% endblock %}
+{% block js %}
+{% endblock %}
 
 {% block content %}
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="landingimagediv"><img class="underconstruction" src="/static/media/UnderConstruction.png" alt="logo"></div>
-            </div>
-
+<div class="container landingcontainer">
+    <a href="#" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
+    <div class="row">
+        <div class="col-sm-12 landingheader">
+            <h1 class="welcomeheading">Welcome to the home of East Bristol Hops Growers Association Est 2016</h1>
+            <img class="ebhlandingimage" src="static/media/headerweb.jpg" alt="ebh landing image">
+            <p class="landingsubheading">
+                We are an ever-expanding group of like-minded people, who love to grow Hop plants and drink quality
+                beer!
+            </p>
         </div>
     </div>
-{% endblock %} 
-{% block script %} 
+    <div class="row">
+        <div class="col-sm-12">
+            <p>
+                So what's it all about?
+            </p>
+            <p>
+                Its all about the hops, whether in pots or in the ground on our allotments, balconies, gardens
+                pretty
+                much anywhere hops will grow.<br>
+                More info about growing hops can be found on our <a href="{{ url_for ('wiki')}}">HopsWiki.</a>
+            </p>
+            <p>
+                Everyone who gets involved will get to join a community of growers, the simple pleasure of watching
+                the
+                hop mature,
+                and the joy of harvesting it on the same day as everyone else and adding it to the brew. Beer is
+                usually
+                made with dried hops.
+                Green hop ale is unusual because the hops start to lose their oils and flavours as soon as they are
+                picked, so they need to go from vine to brewing kettle in hours. <br> But if you can find good local
+                hops, you’ll be able to brew a unique
+                beer with a very special taste.
+                By early autumn we’ll get to sample our own - free pints at a party as soon as it’s brewed, and a
+                special discount on some more.
+                You’ll also be able to wander into your local and buy a pint that you helped make.
+            </p>
+            <p>
+                So what is this beer you are talking about?
+            </p>
+        </div>
+    </div>    
+        <div class="row">
+            <div class="col-sm-4 clipimagediv">
+                <img class="landingpumpclip" src="/static/media/eppumpclipnew.png" alt="Easton Promise Pump Clip">
+            </div>
+            <div class="col-sm-4 clipimagediv">
+                <img class="landingpumpclip" src="/static/media/eastbottle.jpg" alt="Easton Promise Pump Clip">
+            </div>
+            <div class="col-sm-4 clipimagediv">
+                <img class="landingpumpclip" src="/static/media/eppumpclipold.png" alt="Easton Promise Pump Clip">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p>
+
+                </p>
+            </div>
+            
+        </div>
+</div>
+<div class="divspacer"></div>
+{% endblock %}
+{% block script %}
 
 {% endblock %}

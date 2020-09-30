@@ -14,9 +14,6 @@
                 down the page and animates scrolling to the top on click -->
             <a href="#" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
 
-            <!-- This button takes the user strraight to the section og growing hops -->
-            <a class="btn btn-secondary" href="#GrowingHops">Growing hops</a>
-
             <h1 class="wikiheading">Its all about the hops!</h1>
             <p class="wikisub-heading">Ever wondered why they call hops a bine, not a vine?
                 Well in this HopsWiki, we hope to demystify some of the preconceptions
@@ -68,7 +65,7 @@
             </p>
 
             <!-- This section injects the videos from javascript -->
-            <h3 class="paragarphheading">How to test soil PH videos</h3>
+            <h3 class="paragarphheading">How to test soil PH</h3>
             <div class="showvidbutton">
                 <input class="btn btn-secondary" type="button" id="showvidbutton" onclick="showvideos()"
                     value="Show Videos"></input>
@@ -77,7 +74,7 @@
             <hr color="white">
 
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-8 stepstext">
                     <p>
                         1. Some people skip this step but, having good dreainage is key to haveing healthy plants so
                         fill
@@ -95,7 +92,7 @@
                 <div class="col-sm-4 trenchimg">
                     <img class="rhzimage" src="static/media/rhizome.jpg" alt="">
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8 stepstext">
                     <p>
                         2. You want to create a 3” trench to put the rhizome in.
                     </p>
@@ -103,7 +100,7 @@
             </div>
             <hr color="white">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-8 stepstext">
                     <p>
                         3. Pack the soil lightly around this to ensure there is plenty of air and then cover with mulch
                         or straw. This helps to keep the rhizome cool and make it easier to deal with weeds.
@@ -120,7 +117,7 @@
                 <div class="col-sm-4 trenchimg">
                     <img class="rhzimage" src="static/media/watering.jpg" alt="">
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8 stepstext">
                     <p>
                         4. You want to keep the ground moist, watering every couple of days will be sufficient unless
                         the
@@ -137,9 +134,9 @@
 
             <hr color="white">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-8 stepstext">
                     <p>
-                        5. In the first year if you are lucky, you can expect to see a daily groth rate of about an inch plus per day.
+                        5. In the first year if you are lucky, you can expect to see a daily groth rate of about an inch.
                     </p>
                 </div>
                 <div class="col-sm-4 trenchimg">
@@ -208,5 +205,5 @@
 {% endblock %}
 
 {% block script %}
-<script src="{{url_for('static', filename='js/wiki.js')}}"></script>
+    <script src="{{url_for('static', filename='js/wiki.js')}}"></script>
 {% endblock %}

@@ -1,23 +1,57 @@
 body{
-    background-color: gray;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
-.landingimage{
-    width: 40%;
+.landingcontainer{
+    position: relative;
+    min-height: 100vh;
+}
+
+.welcomeheading{
+    margin-top: 10px;
+    font-family: 'Unkempt', cursive;
+}
+
+.landingsubheading{
+    font-size: 2rem;
+}
+
+.landingheader{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.ebhlandingimage{
+    width: 80%;
     height: auto;
 }
 
-.landingimagediv{
+.landingpumpclip{
+    width: 60%;
+    height: auto;
+}
+
+.clipimagediv{
     text-align: center;
+    margin: auto;
+}
+
+.divspacer{
+    height: 60px;
+}
+
+Footer{
+    position: fixed;
 }
 
 
 /* ------------------- Media Queries -----------------*/
 
-@media only screen and (min-width: 768px){
-  
-}
-    
+
 @media only screen and (max-width: 768px){
   
 }    

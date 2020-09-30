@@ -95,7 +95,7 @@ p{
 
 /* ----------------------- wiki images ------------------------*/
 .rhzimage{
-    width: 80%;
+    width: 60%;
     height: auto;
     border-radius: 50%;
     border-style: groove;
@@ -112,6 +112,10 @@ p{
 
 .trenchimg{
     text-align: center;
+}
+
+.stepstext{
+    margin: auto;
 }
 
 /* ------------------ Scroll to top button --------------------*/
