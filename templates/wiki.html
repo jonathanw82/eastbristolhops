@@ -9,8 +9,14 @@
 <div class="container wikicontainer">
     <div class="row">
         <div class="col-sm-12 wikibox">
+
+            <!-- This button is hidden untill the page is scrolled then appears half way 
+                down the page and animates scrolling to the top on click -->
             <a href="#" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
+
+            <!-- This button takes the user strraight to the section og growing hops -->
             <a class="btn btn-secondary" href="#GrowingHops">Growing hops</a>
+
             <h1 class="wikiheading">Its all about the hops!</h1>
             <p class="wikisub-heading">Ever wondered why they call hops a bine, not a vine?
                 Well in this HopsWiki, we hope to demystify some of the preconceptions
@@ -24,23 +30,30 @@
             </p>
             <p>
                 Hop plants are perennial, they die back and re-grow each year and can be expected to remain
-                productive for 10-20 years, depending on variety they can have a root depth of almost 4 meters, they can grow as high as 5 meters.
+                productive for 10-20 years, depending on variety they can have a root depth of almost 4 meters, they can
+                grow as high as 5 meters.
                 They typically start to flower mid to late July, this is when the cones will start to develop.
-                The cones consist of multiple layers of petals where the lupulin glands form and they look like large yellow pollen grains.
+                The cones consist of multiple layers of petals where the lupulin glands form and they look like large
+                yellow pollen grains.
             </p>
             <h2 class="paragarphheading">Bine or Vine?</h2>
-            <p>Take consideration to how they grow, a garpevine has a smooth woody stem and climbs using Tendrils to latch on to things to pull itself along.
+            <p>Take consideration to how they grow, a garpevine has a smooth woody stem and climbs using Tendrils to
+                latch on to things to pull itself along.
                 The stems do not die back to the ground in winter and will last the vines life.
             </p>
             <p>
-                Hop plants, die back to ground level each winter, therefore, it's herbaceous. However, because it lives for several years its 
-                classed as a perennial as well, making it a ’herbaceous perennial’. Each year a hop plant will produce brand new stems or bines.
-                Each bine has hairs growing backwards from the tip which help it to grip as it wraps and twines itself up and around any support, 
-                it is these coarse hairs which scratch your bare skin. 
-                Hop bines twist themselves clockwise in the northern hemisphere and anticlockwise for the southern hemisphere. 
+                Hop plants, die back to ground level each winter, therefore, it's herbaceous. However, because it lives
+                for several years its
+                classed as a perennial as well, making it a ’herbaceous perennial’. Each year a hop plant will produce
+                brand new stems or bines.
+                Each bine has hairs growing backwards from the tip which help it to grip as it wraps and twines itself
+                up and around any support,
+                it is these coarse hairs which scratch your bare skin.
+                Hop bines twist themselves clockwise in the northern hemisphere and anticlockwise for the southern
+                hemisphere.
             </p>
-            <h2 class="paragarphheading" id="GrowingHops" >Growing Hops</h2>
-        
+            <h2 class="paragarphheading" id="GrowingHops">Growing Hops</h2>
+
             <h3 class="paragarphsubheading">Location:</h3>
             <p>
                 Hops ideally produce best the further south you are, so in Bristol, we are fairly lucky.
@@ -48,54 +61,70 @@
             </p>
             <h3 class="paragarphsubheading">Soil & Planting:</h3>
             <p>
-                Hops ideally should be planted in spring, late enough to avoid a frost. Hops prefer, loose, non-compacted, easy draining, 
-                slightly acidic and highly nutritious soil.<br> That being said a soil with a PH of 6.2-6.8 works well for most hops varietys.<br>
-                You want to create a 3” trench to put the rhizome in. 
-                Pack the soil lightly around this to ensure there is plenty of air and then cover with mulch or straw. 
+                Hops ideally should be planted in spring, late enough to avoid a frost. Hops prefer, loose,
+                non-compacted, easy draining,
+                slightly acidic and highly nutritious soil.<br> That being said a soil with a PH of 6.2-6.8 works well
+                for most hops varietys.<br>
+                You want to create a 3” trench to put the rhizome in.
+                Pack the soil lightly around this to ensure there is plenty of air and then cover with mulch or straw.
                 This helps to keep the rhizome cool and make it easier to deal with weeds.<br>
-                You want to keep the ground moist, watering every couple of days will be sufficient unless the temperature is really hot.<br>
-                If in pots check everyday in summer as when the temperatures are in the mid 20s and the pots are in direct sunlight the rhizome
-                can overheat causeing premature browning of the leaves and even a complete failure of the plant, so watering moring and evening are advised.
+                You want to keep the ground moist, watering every couple of days will be sufficient unless the
+                temperature is really hot.<br>
+                If in pots check everyday in summer as when the temperatures are in the mid 20s and the pots are in
+                direct sunlight the rhizome
+                can overheat causeing premature browning of the leaves and even a complete failure of the plant, so
+                watering moring and evening are advised.
             </p>
-            <!-- <h3 class="paragarphheading">How to test soil PH</h3>
-            <div class="soilphvideo">
-                <iframe class="soilphvideoplayer" src="https://www.youtube.com/embed/Xu2qVNiG300" frameborder="1" allowfullscreen>
-                </iframe>
-            </div><br> -->
+
+            <!-- This section injects the videos from javascript -->
+            <h3 class="paragarphheading">How to test soil PH videos</h3>
+
+            <input class="btn btn-secondary" type="button" id="showvidbutton" onclick="showvideos()" value="Show Videos"></input>
+
+            <div class="videos" id="videos"></div>
 
             <h3 class="paragarphsubheading"> Climbing Structure & Maintenance:</h3>
             <p>
-                Hop Bines tend to grow vertically, but can grow horizontally and require a fence, rope, wall, hedge or trellis to grow along.
+                Hop Bines tend to grow vertically, but can grow horizontally and require a fence, rope, wall, hedge or
+                trellis to grow along.
                 If using a rope, be aware that during the main flowering season the plants can get really dense foliage,
-                therefore can be susceptible to high winds, so using a thick rope or wire preferably, the most traditional way is to use a coir rope (made from coconut husk). 
-                Try to avoid bailing style twine or slippery nylon, as the bines tend to slip and are unable to grow to there full potential.
-                <p>
-                Once the hops have started to grow, select the most healthy-looking shoots and keep at least 3 to 4 trim off the rest to ground level, 
+                therefore can be susceptible to high winds, so using a thick rope or wire preferably, the most
+                traditional way is to use a coir rope (made from coconut husk).
+                Try to avoid bailing style twine or slippery nylon, as the bines tend to slip and are unable to grow to
+                there full potential.
+            <p>
+                Once the hops have started to grow, select the most healthy-looking shoots and keep at least 3 to 4 trim
+                off the rest to ground level,
                 or if still young consider cooking them up as a growers feast.
             </p>
             <p>
-                Start to wrap them clockwise around the supports you have put in place and when the bines are over 2 to 3 foot, clear off at least a foots worth of bottom leaves.<br>
+                Start to wrap them clockwise around the supports you have put in place and when the bines are over 2 to
+                3 foot, clear off at least a foots worth of bottom leaves.<br>
                 This helps with ventilation and also cuts the chances of pests such as powdery mildew.
             </p>
             <h3 class="paragarphsubheading"> Harvest Time:</h3>
             <p>
-                Harvesting is usually around end of September, however, it can also be weather dependant, in the first year the yield will generally be quite 
+                Harvesting is usually around end of September, however, it can also be weather dependant, in the first
+                year the yield will generally be quite
                 small but will generally increase year on year.
-                </p>
-                <p>
-                Hops cones are ready to harvest when they are dry/papery to the touch, springy, have a 
-                strong beer aroma and leave an oily residue on your fingers, when you think they’re ripe pick one and open it, 
+            </p>
+            <p>
+                Hops cones are ready to harvest when they are dry/papery to the touch, springy, have a
+                strong beer aroma and leave an oily residue on your fingers, when you think they’re ripe pick one and
+                open it,
                 if ripe it should be full of thick yellow-gold lupulin powder.
-                </p>
-                <p>
-                Hop cones may not mature evenly so it’s important to harvest those that are ready, hops can easily be frozen and as Easton Promise 
-                is usually made with green hops, 
+            </p>
+            <p>
+                Hop cones may not mature evenly so it’s important to harvest those that are ready, hops can easily be
+                frozen and as Easton Promise
+                is usually made with green hops,
                 there is no need to dry them just pick and freeze until we call for the hops drop off.
-                </p>
-                <p>
-                After harvest and the leaves have started to brown and dieback cut the bines off at just above ground level and cover 
+            </p>
+            <p>
+                After harvest and the leaves have started to brown and dieback cut the bines off at just above ground
+                level and cover
                 with mulch and even some fertiliser, manure or chicken poo pellets have been found to work well.
-            </p>    
+            </p>
 
             <hr color="white">
             <br>
@@ -103,32 +132,38 @@
                 <div class="col-sm-12">
                     <h2 class="paragarphheading">For more infomation on hops and how to care for them check out these
                         rescouces</h2>
-                </div>    
+                </div>
                 <div class=col-md-3>
                     <div class="card">
-                        <a href="https://www.britishhops.org.uk/" target="_blank"><img src="static/media/britishhopasso.jpg" 
-                            alt="Avatar" style="width:80%">British Hops Association</a>
+                        <a href="https://www.britishhops.org.uk/" target="_blank"><img
+                                src="static/media/britishhopasso.jpg" alt="Avatar" style="width:80%">British Hops
+                            Association</a>
                     </div>
                 </div>
                 <div class=col-md-3>
                     <div class="card">
                         <a href="https://essentiallyhops.co.uk/info-guides/" target="_blank">
-                            <img src="https://essentiallyhops.co.uk/wp-content/uploads/2019/09/HF-Logo-Rect-full.png" 
-                            alt="Avatar" style="width:80%">Essentially Hops</a>
+                            <img src="https://essentiallyhops.co.uk/wp-content/uploads/2019/09/HF-Logo-Rect-full.png"
+                                alt="Avatar" style="width:80%">Essentially Hops</a>
                     </div>
                 </div>
                 <div class=col-md-3>
                     <div class="card">
                         <a href="https://abushelofhops.co.uk/" target="_blank">
-                            <img src="https://abushelofhops.co.uk/wp-content/uploads/2015/06/headerr-3-grey.png" 
-                            alt="Avatar" style="width:80%"><div>A Bushel of Hops</div></a>
+                            <img src="https://abushelofhops.co.uk/wp-content/uploads/2015/06/headerr-3-grey.png"
+                                alt="Avatar" style="width:80%">
+                            <div>A Bushel of Hops</div>
+                        </a>
                     </div>
                 </div>
                 <div class=col-md-3>
                     <div class="card">
-                        <a href="https://www.brewuk.co.uk/blog/growing-hops-at-home/#:~:text=Hops%20ideally%20should%20be%20planted,foot%20high%20above%20ground%20level." target="_blank">
-                            <img src="https://d1mydsvkrowrfu.cloudfront.net/media/logo/websites/1/logo_1.jpg" 
-                            alt="Avatar" style="width:80%"><div>Brew Uk</div></a>
+                        <a href="https://www.brewuk.co.uk/blog/growing-hops-at-home/#:~:text=Hops%20ideally%20should%20be%20planted,foot%20high%20above%20ground%20level."
+                            target="_blank">
+                            <img src="https://d1mydsvkrowrfu.cloudfront.net/media/logo/websites/1/logo_1.jpg"
+                                alt="Avatar" style="width:80%">
+                            <div>Brew Uk</div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -139,5 +174,5 @@
 </div>
 {% endblock %}
 {% block script %}
-    <script src="{{url_for('static', filename='js/wiki.js')}}"></script>
+<script src="{{url_for('static', filename='js/wiki.js')}}"></script>
 {% endblock %}
