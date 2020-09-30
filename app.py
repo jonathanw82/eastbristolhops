@@ -17,7 +17,8 @@ def wiki():
 
 @app.route('/about')
 def about():
-    return render_template("about.html", page_title="About")
+    return render_template("about.html", page_title="About",
+                           background='background_image_about')
 
 
 @app.route('/contact')

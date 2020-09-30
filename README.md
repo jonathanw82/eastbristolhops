@@ -16,5 +16,9 @@ scroll to top icon
 https://paulund.co.uk/how-to-create-an-animated-scroll-to-top-button-with-jquery
 
 Images 
+images of the pots and hops belong to Jon Wheway
+Hops on th string Photo by ELEVATE from Pexels
+Hops trellis photo from East Bristol Hops Twitter 
+
 Fonts
 Unkempt & Cuprum google fonts licenced under Open Font Licence.
