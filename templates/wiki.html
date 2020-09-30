@@ -9,6 +9,8 @@
 <div class="container wikicontainer">
     <div class="row">
         <div class="col-sm-12 wikibox">
+            <a href="#" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
+            <a class="btn btn-secondary" href="#GrowingHops">Growing hops</a>
             <h1 class="wikiheading">Its all about the hops!</h1>
             <p class="wikisub-heading">Ever wondered why they call hops a bine, not a vine?
                 Well in this HopsWiki, we hope to demystify some of the preconceptions
@@ -37,7 +39,7 @@
                 it is these coarse hairs which scratch your bare skin. 
                 Hop bines twist themselves clockwise in the northern hemisphere and anticlockwise for the southern hemisphere. 
             </p>
-            <h2 class="paragarphheading">Growing Hops</h2>
+            <h2 class="paragarphheading" id="GrowingHops" >Growing Hops</h2>
         
             <h3 class="paragarphsubheading">Location:</h3>
             <p>
@@ -55,11 +57,11 @@
                 If in pots check everyday in summer as when the temperatures are in the mid 20s and the pots are in direct sunlight the rhizome
                 can overheat causeing premature browning of the leaves and even a complete failure of the plant, so watering moring and evening are advised.
             </p>
-            <h3 class="paragarphheading">How to test soil PH</h3>
+            <!-- <h3 class="paragarphheading">How to test soil PH</h3>
             <div class="soilphvideo">
                 <iframe class="soilphvideoplayer" src="https://www.youtube.com/embed/Xu2qVNiG300" frameborder="1" allowfullscreen>
                 </iframe>
-            </div><br>
+            </div><br> -->
 
             <h3 class="paragarphsubheading"> Climbing Structure & Maintenance:</h3>
             <p>
@@ -93,9 +95,7 @@
                 <p>
                 After harvest and the leaves have started to brown and dieback cut the bines off at just above ground level and cover 
                 with mulch and even some fertiliser, manure or chicken poo pellets have been found to work well.
-            </p>
-            <a class="btn btn-info bttButton" href="#top"><i class="fas fa-arrow-up"></i> Go to
-                Top</a>        
+            </p>    
 
             <hr color="white">
             <br>
@@ -139,5 +139,5 @@
 </div>
 {% endblock %}
 {% block script %}
-
+    <script src="{{url_for('static', filename='js/wiki.js')}}"></script>
 {% endblock %}

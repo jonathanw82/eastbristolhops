@@ -25,6 +25,7 @@ p{
 .wikiheading{
     font-family: 'Unkempt', cursive;
     text-align: center;
+    color:#C6AE34;
 }
 
 .wikisub-heading{
@@ -34,20 +35,12 @@ p{
 .paragarphheading{
     font-family: 'Unkempt', cursive;
     text-align: center;
+    color:#C6AE34;
 }
 
 .paragarphsubheading{
     font-family: 'Unkempt', cursive;
-    text-decoration: underline;
-}
-
-.soilphvideo{
-    text-align: center;
-}
-
-.soilphvideoplayer{
-    width:420px;
-    height:315px;
+    color: #F79767;
 }
 
 .wikibox{
@@ -72,4 +65,134 @@ p{
     z-index: -1;
     width: 100%;
     min-height: 100vh;
+}
+
+/* ----------------------- wiki videos ------------------------*/
+
+.soilphvideo{
+    text-align: center;
+}
+
+.soilphvideoplayer{
+    width:420px;
+    height:315px;
+}
+
+/* ------------------ Scroll to top button --------------------*/
+
+.scrollToTop{
+    width:50px; 
+    height:50px;
+    text-align:center; 
+    font-weight: bold;
+    font-size: 2rem;
+    border: 2px solid white;
+    background-color: gray;
+    text-decoration: none;
+    position:fixed;
+    top:600px;
+    right:10px;
+    display:none;
+    z-index: 500;
+}
+
+.scrolltotopicon{
+    color: burlywood;
+    -webkit-text-stroke: 1px black;
+}
+
+.scrollToTop:hover{
+    text-decoration:none;
+}
+
+/* ------------------- Media Queries base.html -----------------*/
+
+@media only screen and (max-width: 1440px){
+
+    .scrollToTop{
+        right:60px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    .scrollToTop{
+        right:20px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    
+    .scrollToTop{
+        right:10px;
+    }
+}     
+
+
+@media only screen and (max-width: 425px){
+    .wikibox{
+        width: 90%;
+        padding: 10px;
+    }
+    .wikiheading{
+        font-size: 2rem;
+    }
+    .wikisub-heading{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .paragarphheading{
+        font-size: 2rem;
+    }
+    p{
+        text-align: center;
+    }
+    .paragarphsubheading{
+        text-align: center;
+    }
+}    
+   
+
+@media only screen and (max-width: 375px){
+    
+    .wikiheading{
+        font-size: 1.9rem;
+    }
+    .wikisub-heading{
+        font-size: 1.4rem;
+    }
+    .paragarphheading{
+        font-size: 1.9rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+}    
+
+
+@media only screen and (max-width: 320px){
+
+    .soilphvideoplayer{
+        width:220px;
+        height:215px;
+    }
+    .wikiheading{
+        font-size: 1.7rem;
+    }
+    .wikisub-heading{
+        font-size: 1.2rem;
+    }
+    .paragarphheading{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .paragarphsubheading{
+        font-size: 1.5rem;
+    }
+    .scrollToTop{
+        top:450px;
+    }
 }
