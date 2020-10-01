@@ -14,15 +14,30 @@ body{
 }
 
 .landingsubheading{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .landingheader{
     text-align: center;
 }
 
+.landingsubparagraph{
+    font-family: 'Unkempt', cursive;
+    font-size: 1.9rem;
+}
+
 p{
     text-align: center;
+    font-size: 1.6rem;
+}
+
+.wikilinkinline{
+    color: black;
+    text-decoration: none;
+}
+
+.wikilinkinline:hover{
+    color: gray;
 }
 
 .ebhlandingimage{
@@ -33,6 +48,9 @@ p{
 .landingpumpclip{
     width: 60%;
     height: auto;
+    border-radius: 50%;
+    border-style: groove;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .clipimagediv{
@@ -40,14 +58,39 @@ p{
     margin: auto;
 }
 
+
 .divspacer{
     height: 60px;
 }
+
+.beerbackground{
+    background-image: url('/static/media/landingbackground.jpg');                      
+    /* background-position: center; */
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    /* position: absolute; */
+    z-index: -1;
+    width: 100%;
+    /* width: 100%; */
+    /* min-height: 100vh; */
+}
+
+/* ----------------- Special footer -----------------*/
 
 Footer{
     position: fixed;
 }
 
+/* ----------------- Wed developer ------------------*/
+
+.createdby, #createdby{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
 
 /* ------------------- Media Queries -----------------*/
 
