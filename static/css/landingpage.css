@@ -53,28 +53,23 @@ p{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.clipimagediv{
+.promisediv{
     text-align: center;
-    margin: auto;
 }
 
+.pumpclipimage{
+    width: 90%;
+    height: auto;
+}
 
 .divspacer{
     height: 60px;
 }
 
-.beerbackground{
-    background-image: url('/static/media/landingbackground.jpg');                      
-    /* background-position: center; */
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat:no-repeat;
-    /* position: absolute; */
-    z-index: -1;
-    width: 100%;
-    /* width: 100%; */
-    /* min-height: 100vh; */
+.scrollToTop{
+    background-color: rgba(0, 0, 0, 0.19);
 }
+
 
 /* ----------------- Special footer -----------------*/
 
@@ -100,13 +95,53 @@ Footer{
 }    
     
 @media only screen and (max-width: 425px){
-      
+    .welcomeheading{
+        font-size: 1.5rem;
+    }
+    .ebhlandingimage{
+        width: 100%;
+    }
+    .landingsubheading{
+        font-size: 1.1rem;
+    }
+    .landingsubparagraph{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    .pumpclipimage{
+        width: 100%;
+    }
+    .createdby, #createdby{
+       font-size: 0.9rem;
+   }
 }    
     
 @media only screen and (max-width: 375px){
-       
+    .welcomeheading{
+        font-size: 1.5rem;
+    }
+    .ebhlandingimage{
+        width: 100%;
+    }
+    .landingsubheading{
+        font-size: 1.1rem;
+    }
+    .landingsubparagraph{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    .pumpclipimage{
+        width: 100%;
+    }
+    .createdby, #createdby{
+       font-size: 0.9rem;
+   }
 }    
     
 @media only screen and (max-width: 320px){
-     
+   
 }    
