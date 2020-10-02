@@ -89,6 +89,7 @@ footer{
         padding-right: 8px;
     }
 }
+    
 
 @media only screen and (min-width: 768px){
 /* 
@@ -100,14 +101,49 @@ footer{
         display: none;
     } */
 }
+@media only screen and (min-width: 991px){
+    #mobilelogo{
+        display: none;
+    }
+}
 
-@media only screen and (min-width: 769px){
+@media only screen and (max-width: 991px){
+    .hop{
+        display: none;
+    }
+    .ebhlogo{
+        display: none;
+    }
+    .navspaceright{
+        margin-left: 0px;
+    }
+    #mobilelogo{
+        display: block;
+    }
+    .ebhlogomodile{
+        width: 250px!important;
+        height: auto!important;
+    }
+    button:focus{
+        outline: none;
+    }
+    #navtogglericon{
+        color: white;
+        font-size: 2rem;
+        margin-top: 8px;
+    }
+    .nav-link{
+        font-size: 1.8rem;
+    }
+}
+
+/* @media only screen and (min-width: 769px){
 
     #mobilelogo{
         display: none;
     }
    
-}
+} */
 
 
 @media only screen and (max-width: 768px){
