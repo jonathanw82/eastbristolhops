@@ -45,23 +45,6 @@ p{
     height: auto;
 }
 
-.landingpumpclip{
-    width: 60%;
-    height: auto;
-    border-radius: 50%;
-    border-style: groove;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.promisediv{
-    text-align: center;
-}
-
-.pumpclipimage{
-    width: 90%;
-    height: auto;
-}
-
 .divspacer{
     height: 60px;
 }
@@ -69,7 +52,6 @@ p{
 .scrollToTop{
     background-color: rgba(0, 0, 0, 0.19);
 }
-
 
 /* ----------------- Special footer -----------------*/
 
@@ -110,9 +92,6 @@ Footer{
     p{
         font-size: 1.1rem;
     }
-    .pumpclipimage{
-        width: 100%;
-    }
     .createdby, #createdby{
        font-size: 0.9rem;
    }
@@ -133,9 +112,6 @@ Footer{
     }
     p{
         font-size: 1.1rem;
-    }
-    .pumpclipimage{
-        width: 100%;
     }
     .createdby, #createdby{
        font-size: 0.9rem;

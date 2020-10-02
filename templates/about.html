@@ -6,60 +6,95 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
+<a href="#" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
+<div class="container aboutbox">
     <div class="row">
-        <div class="col-sm-12 oldcrew">
-            <h1>Where it all began</h1>
-            <p>
-                East Bristol Hops was formed in 2016 by four friends who had the idea to bring together a 
-                community of hop growers in Bristol who collectively would provide green hops to a local brewery for a uniquely Bristolian brew. 
-                Within a few weeks of first talking about the idea, the original team of organisers had a brewery on board (Dawkins Ales) and an 
-                enthusiastic community of growers. That September 7kg of fresh, green hops were harvested and were used to make the first edition 
+        <div class="col-sm-12">
+            <h1 class="oldcrewheading">Where it all began</h1>
+          
+            <p class="oldcrewstory">
+                East Bristol Hops was formed in 2016 by four friends who had the idea to bring together a
+                community of hop growers in Bristol who collectively would provide green hops to a local brewery for a
+                uniquely Bristolian brew.<br>
+                Within a few weeks of first talking about the idea, the original team of organisers had a brewery on
+                board (Dawkins Ales) and an
+                enthusiastic community of growers. That September 7kg of fresh, green hops were harvested and were used
+                to make the first edition
                 of a beer dubbed Easton Promise, which we launched during Cask Ale Week.
-                The association has gone from strength to strength since that first year as plants get more established, the number of contributors increases 
-                and the amount of harvested hops increases. In our second year, the harvest was over 20 kilos - a significant milestone as it meant the 
-                2017 beer contained only locally grown cones.
-                Bringing together people with a passion for beer, small breweries and their community has been the chief 
-                goal of the association since its inception. If you'd like to get involved, please get in touch via email at eastbristolhops@gmail.com.
             </p>
-            <p>
-                East Bristol Hops was formed in 2016 by four friends who had the idea to bring together a 
-                community of hop growers in Bristol who collectively would provide green hops to a local brewery for a uniquely Bristolian brew. 
-                Within a few weeks of first talking about the idea, the original team of organisers had a brewery on board (Dawkins Ales) and an 
-                enthusiastic community of growers. That September 7kg of fresh, green hops were harvested and were used to make the first edition 
-                of a beer dubbed Easton Promise, which we launched during Cask Ale Week.
-                The association has gone from strength to strength since that first year as plants get more established, the number of contributors increases 
-                and the amount of harvested hops increases. In our second year, the harvest was over 20 kilos - a significant milestone as it meant the 
+            <div class="row">
+                <div class="col-sm-6 friendimagerow">
+                    <img class="friendsimage" src="/static/media/oldadmins.jpg" alt="old admins image">
+                </div>
+                <div class="col-sm-6 friendimagerow">
+                    <img class="friendsimage" src="/static/media/oldparty.jpg" alt="old party image">
+                </div>
+            </div>    
+            <p class="oldcrewstory">    
+                The association has gone from strength to strength since that first year as plants get more established,
+                the number of contributors increases
+                and the amount of harvested hops increases. In our second year, the harvest was over 20 kilos - a
+                significant milestone as it meant the
                 2017 beer contained only locally grown cones.
-                Bringing together people with a passion for beer, small breweries and their community has been the chief 
-                goal of the association since its inception. If you'd like to get involved, please get in touch via email at eastbristolhops@gmail.com.
+                Bringing together people with a passion for beer, small breweries and their community has been the chief
+                goal of the association since its inception. <br> If you'd like to get involved, please get in touch via
+                <a href="{{ url_for ('contact') }}" class="clicktag">Contact Us</a>
             </p>
-            <p>
-                East Bristol Hops was formed in 2016 by four friends who had the idea to bring together a 
-                community of hop growers in Bristol who collectively would provide green hops to a local brewery for a uniquely Bristolian brew. 
-                Within a few weeks of first talking about the idea, the original team of organisers had a brewery on board (Dawkins Ales) and an 
-                enthusiastic community of growers. That September 7kg of fresh, green hops were harvested and were used to make the first edition 
-                of a beer dubbed Easton Promise, which we launched during Cask Ale Week.
-                The association has gone from strength to strength since that first year as plants get more established, the number of contributors increases 
-                and the amount of harvested hops increases. In our second year, the harvest was over 20 kilos - a significant milestone as it meant the 
-                2017 beer contained only locally grown cones.
-                Bringing together people with a passion for beer, small breweries and their community has been the chief 
-                goal of the association since its inception. If you'd like to get involved, please get in touch via email at eastbristolhops@gmail.com.
+          <hr color="gray">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Where are we now and what are we up to?</h2>
+            <p> 
+                
             </p>
-            <p>
-                East Bristol Hops was formed in 2016 by four friends who had the idea to bring together a 
-                community of hop growers in Bristol who collectively would provide green hops to a local brewery for a uniquely Bristolian brew. 
-                Within a few weeks of first talking about the idea, the original team of organisers had a brewery on board (Dawkins Ales) and an 
-                enthusiastic community of growers. That September 7kg of fresh, green hops were harvested and were used to make the first edition 
-                of a beer dubbed Easton Promise, which we launched during Cask Ale Week.
-                The association has gone from strength to strength since that first year as plants get more established, the number of contributors increases 
-                and the amount of harvested hops increases. In our second year, the harvest was over 20 kilos - a significant milestone as it meant the 
-                2017 beer contained only locally grown cones.
-                Bringing together people with a passion for beer, small breweries and their community has been the chief 
-                goal of the association since its inception. If you'd like to get involved, please get in touch via email at eastbristolhops@gmail.com.
+            <hr color="gray">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 promisediv">
+            <h2 class="subheadingpromisediv">
+                Whats this Beer then?
+            </h2>
+            <p class="abouthebrew">
+                The Beer is called Easton Promise very kindly made by <a
+                    href="http://www.dawkinsales.com/firstpage.html" class="clicktag" target="_blank">Dawkins Ales</a>,<br> its
+                name was chosen in a competition amongst our first wave of growers, <br>now numbering well over a hundred
+                all over the Bristol area.
+            </p>
+            <img class="pumpclipimage" src="/static/media/eastonpromise.png" alt="Easton Promise pump clips">
+        
+            <p class="brewrecipe">
+                The recipe is somewhat of a secret, as it changes year on year, but we <strong>Promise</strong> you its good!<br>
+                What we can tell you, is that Dawkins expertly craft our hops into this fantastic beer.
+            </p>
+            <p class="brewrecipe">
+                It's packed full of locally-grown
+                wet Bullion, Fuggles, Primadonna (UK) hops, Its Super-fresh, grassy, hoppy flavours are only possible,
+                due to the hops being
+                picked straight off the vine capturing all the delicate volatile aromas from the natural hop oils.
+                <br> Whats the ABV? <br> Well, this is a concept beer so we'll let you know when we know!
             </p>
         </div>
     </div>
+    <hr color="gray">
+
+    <div class="row help-row">
+		<div class="col-sm-12 helpalcohelpheading">
+			<h3>Having trouble with Alcohol?</h3>
+			<p>Don't suffer in silence, reach out, ask for help!</p>
+		</div>
+		<div class="col-sm-6 help-link">
+			<a href="https://www.drinkaware.co.uk/alcohol-facts/health-effects-of-alcohol/mental-health/alcoholism/"
+				target="_blank">DrinkAware </a>
+		</div>
+		<div class="col-sm-6 help-link">
+			<a href="https://www.alcoholics-anonymous.org.uk/" target="_blank">Alcoholics Anonymous</a>
+		</div>
+	</div>
 </div>
 {% endblock %}
 {% block script %}

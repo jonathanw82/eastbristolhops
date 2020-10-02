@@ -20,5 +20,7 @@ images of the pots and hops belong to Jon Wheway
 Hops on th string Photo by ELEVATE from Pexels
 Hops trellis photo from East Bristol Hops Twitter 
 
+favicon.ioc Unknone artist https://www.clipart.email/download/19281353.html
+
 Fonts
 Unkempt & Cuprum google fonts licenced under Open Font Licence.
