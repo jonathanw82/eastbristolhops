@@ -58,7 +58,7 @@
                 So what's this beer you are talking about and how do I get involved?
             </p>
             <p>
-               Info on how to get involved
+                Info on how to get involved
             </p>
         </div>
     </div>
@@ -72,7 +72,38 @@
     </div>
 </div>
 <div class="divspacer"></div>
+
+<!-- signup to the enews modal -->
+<div class="modal fade" id="newslettersignup" tabindex="-1" role="dialog" aria-labelledby="newslettersignup"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="modalimagebox">
+                        <img class="modal-ebh-image" src="/static/media/ebhnavheader.png" alt="East bristol hops logo">
+                        <h5 class="card-title">Stay up to date</h5>
+                        <p>
+                            Sign up to the East Bristol Hops newsletter to receive occasional updates about hop
+                            collection dates, growers parties and year-round socials, as well as tips and tricks to maximise your harvest!
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 modal_buttons">
+                        <button type="button" class="btn btn-primary modal-button" onclick="clear_modal()"
+                            data-dismiss="modal">Enter Site!</button>
+                    </div>
+                    <div class="col-sm-6 modal_buttons">
+                        <a class="btn btn-primary modal-button" onclick="clear_modal()"
+                            href="https://gmail.us2.list-manage.com/subscribe?u=80bf76e9dfc08c46f8b2b9416&id=27ea01d4c6" target="_blank">Signup!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
 {% block script %}
-
+<script src="{{url_for('static', filename='js/sessioncookie.js')}}"></script>
 {% endblock %}

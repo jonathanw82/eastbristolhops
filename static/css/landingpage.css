@@ -69,6 +69,16 @@ Footer{
     font-weight: 700;
 }
 
+/* modal */
+
+.modal-dialog{
+    max-width: 80%;
+    height: auto;
+
+} 
+
+
+
 /* ------------------- Media Queries -----------------*/
 
 
