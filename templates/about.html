@@ -10,8 +10,37 @@
 <div class="container aboutbox">
     <div class="row">
         <div class="col-sm-12">
+            <h1 class="oldcrewheading">How to become part of our community</h1>
+            <p class="oldcrewstory">
+                East Bristol Hops are always looking for new members.
+
+                Our goal is to become self-sufficient by propagating enough hop plants such that everyone interested in
+                joining the association can receive a free plant.
+            </p>
+            <p class="oldcrewstory">
+                Until then, though, we will be placing an order early in the new year.
+
+                If you'd like to join in next year's harvest, please leave your details via the 
+                <a href="{{ url_for ('contact') }}">Contact tab</a> so we can contact
+                you nearer the time regarding how much your plant will cost. As an example, in previous years we have
+                charged £18 per plant,<br> which includes not only the plant itself but also almost everything else you'll need to
+                get set up.<br>
+
+                If you'd like to get involved, but don't have any spare cash, do please still get in touch as we have a
+                limited number of plants propagated by our growers which we could donate for free.<br>
+
+                Finally, if you wish to keep on top of East Bristol Hops news, please subscribe to our mailing list, and
+                check out our socials <a href="https://www.facebook.com/groups/eastbristolhops" target="_blank">Facebook</a> and 
+                <a href="https://twitter.com/eastbristolhops?lang=en" target="_blank">Twitter</a>
+            </p>
+            <hr color="gray">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+
             <h1 class="oldcrewheading">Where it all began</h1>
-          
             <p class="oldcrewstory">
                 East Bristol Hops was formed in 2016 by four friends who had the idea to bring together a
                 community of hop growers in Bristol who collectively would provide green hops to a local brewery for a
@@ -29,8 +58,8 @@
                 <div class="col-sm-6 friendimagerow">
                     <img class="friendsimage" src="/static/media/oldparty.jpg" alt="old party image">
                 </div>
-            </div>    
-            <p class="oldcrewstory">    
+            </div>
+            <p class="oldcrewstory">
                 The association has gone from strength to strength since that first year as plants get more established,
                 the number of contributors increases
                 and the amount of harvested hops increases. In our second year, the harvest was over 20 kilos - a
@@ -39,16 +68,6 @@
                 Bringing together people with a passion for beer, small breweries and their community has been the chief
                 goal of the association since its inception. <br> If you'd like to get involved, please get in touch via
                 <a href="{{ url_for ('contact') }}" class="clicktag">Contact Us</a>
-            </p>
-          <hr color="gray">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <h2>Where are we now and what are we up to?</h2>
-            <p> 
-                
             </p>
             <hr color="gray">
         </div>
@@ -61,14 +80,17 @@
             </h2>
             <p class="abouthebrew">
                 The Beer is called Easton Promise very kindly made by <a
-                    href="http://www.dawkinsales.com/firstpage.html" class="clicktag" target="_blank">Dawkins Ales</a>,<br> its
-                name was chosen in a competition amongst our first wave of growers, <br>now numbering well over a hundred
+                    href="http://www.dawkinsales.com/firstpage.html" class="clicktag" target="_blank">Dawkins
+                    Ales</a>,<br> its
+                name was chosen in a competition amongst our first wave of growers, <br>now numbering well over a
+                hundred
                 all over the Bristol area.
             </p>
             <img class="pumpclipimage" src="/static/media/eastonpromise.png" alt="Easton Promise pump clips">
-        
+
             <p class="brewrecipe">
-                The recipe is somewhat of a secret, as it changes year on year, but we <strong>Promise</strong> you its good!<br>
+                The recipe is somewhat of a secret, as it changes year on year, but we <strong>Promise</strong> you its
+                good!<br>
                 What we can tell you, is that Dawkins expertly craft our hops into this fantastic beer.
             </p>
             <p class="brewrecipe">
@@ -83,18 +105,18 @@
     <hr color="gray">
 
     <div class="row help-row">
-		<div class="col-sm-12 helpalcohelpheading">
-			<h3>Having trouble with Alcohol?</h3>
-			<p>Don't suffer in silence, reach out, ask for help!</p>
-		</div>
-		<div class="col-sm-6 help-link">
-			<a href="https://www.drinkaware.co.uk/alcohol-facts/health-effects-of-alcohol/mental-health/alcoholism/"
-				target="_blank">DrinkAware </a>
-		</div>
-		<div class="col-sm-6 help-link">
-			<a href="https://www.alcoholics-anonymous.org.uk/" target="_blank">Alcoholics Anonymous</a>
-		</div>
-	</div>
+        <div class="col-sm-12 helpalcohelpheading">
+            <h3>Having trouble with Alcohol?</h3>
+            <p>Don't suffer in silence, reach out, ask for help!</p>
+        </div>
+        <div class="col-sm-6 help-link">
+            <a href="https://www.drinkaware.co.uk/alcohol-facts/health-effects-of-alcohol/mental-health/alcoholism/"
+                target="_blank">DrinkAware </a>
+        </div>
+        <div class="col-sm-6 help-link">
+            <a href="https://www.alcoholics-anonymous.org.uk/" target="_blank">Alcoholics Anonymous</a>
+        </div>
+    </div>
 </div>
 {% endblock %}
 {% block script %}
