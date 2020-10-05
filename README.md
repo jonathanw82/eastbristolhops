@@ -1,3 +1,12 @@
+<h1 align="center">
+   <a href="https://jonathanw82-eastbristolhops.herokuapp.com/" target="_blank"><img src="static/images/repoimage.jpg" alt="logo image"/></a>
+ </h1>
+ 
+<div align="center">
+    
+#### Click on image for live version or [View in GitHub Pages](https://github.com/jonathanw82/Can_Share)
+</div>
+
 # eastbristolhops
 A website for a community hops growing association, that collectively grow hops in gardens and allotments.
 
