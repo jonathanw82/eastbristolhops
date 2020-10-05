@@ -1,5 +1,5 @@
 <h1 align="center">
-   <a href="https://www.eastbristolhops.co.uk/" target="_blank"><img src="static/images/repoimage.jpg" alt="logo image"/></a>
+   <a href="http://www.eastbristolhops.co.uk/" target="_blank"><img src="static/images/repoimage.jpg" alt="logo image"/></a>
  </h1>
  
 <div align="center">
