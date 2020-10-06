@@ -1,12 +1,14 @@
 // Pest text and infomation displayed when the respective buttons are pressed
 
 let aphids = `<div class="col-sm-12">
-    <p>
+    <p class="pestheading">
         Aphids
     </p>
-    <img class="trellisimg"
-        src="https://images.immediate.co.uk/production/volatile/sites/10/2018/02/4b618c4f-4b55-43db-976d-56c41331876e-837427f.jpg?quality=90&resize=768%2C574"
-        alt="Aphids">
+    <div class="pestimagediv">
+        <img class="pestimage"
+            src="https://images.immediate.co.uk/production/volatile/sites/10/2018/02/4b618c4f-4b55-43db-976d-56c41331876e-837427f.jpg?quality=90&resize=768%2C574"
+            alt="Aphids">
+    </div>    
     <p>
         Aphids are a common garden pest but they can takeover hop plants, they are also key to quite a
         few hop plant disease, they chew into the stems and
@@ -24,61 +26,75 @@ let aphids = `<div class="col-sm-12">
         Please note it's impossible, to totally get rid of aphids, so don't panic too much unless it is really bad, 
         in fact in the US the (FDA) Food and Drug Administration allows up to 2,500 aphids per 10 grams of hops YUCK!!
     </p>
-    <button onclick="pestclose()" >Close</button>
+    <button class="pestclosebut" onclick="pestclose()" >Close</button>
 </div>`;
 
 let spider = `<div class="col-sm-12">
-    <p>
-        Spider Mites
-    </p>
-    <img class="trellisimg"
+<p class="pestheading">
+    Spider Mites
+</p>
+<div class="pestimagediv">
+    <img class="pestimage"
         src="https://onspecialtycrops.files.wordpress.com/2015/08/leaf-bronzing.jpg?w=457&h=347"
         alt="spider Mites">
-    <p>
+</div>    
+<p>
     Although a little less common than Aphids, The most common species of spider-mites that affect hops is the Two-Spotted Spider Mite. 
     They tend to attack in summer if the air is very dry, they attack the underside of the leaves much the same as aphids, the leaves will get light yellow patches and start to brown at the tips, holes can also start to form,
     a real telltale sign of a serious infestation is the leaves will get a webbing form between the leaf spears, generally, at this point the leaves are dead, and the plant will become quite stunted.
-    If spider mites become an issue try wetting the whole plant each night after sundown, they tend not to favour moist foliage.
-    </p>
-    <button onclick="pestclose()" >Close</button>
+    If spider mites become an issue try removing the effected area, then wet the whole plant each night after sundown, they tend not to favour moist humid foliage.
+</p>
+<div class="pestclosebuttondiv">
+    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+</div>
     </div>`;
 
 let sooty = ` <div class="col-sm-12">
-<p>
+<p class="pestheading">
     Sooty Mould
 </p>
-<img class="trellisimg"
-    src="https://irontreeservice.com/wp-content/uploads/2016/06/Sooty-Mold-350x0-c-default.jpg"
-    alt="Sooty mould">
+<div class="pestimagediv">
+    <img class="pestimage"
+        src="https://irontreeservice.com/wp-content/uploads/2016/06/Sooty-Mold-350x0-c-default.jpg"
+        alt="Sooty mould">
+</div>        
 <p>
     Sooty mould causes a layer of black mould the covers leaves and cones, it causes the leaves to
     die back and the bine to wilt, Sooty Mould grows on the honeydew left behind by aphids. To teat
     this mould you have to tackle the aphids that cause it in the first place.
 </p>
-<button onclick="pestclose()" >Close</button>
+<div class="pestclosebuttondiv">
+    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+</div>
 </div>`;
 
 let mosaic = ` <div class="col-sm-12">
-<p>
-    Mosaic virus
+<p class="pestheading">
+    Mosaic Virus
 </p>
-<img class="trellisimg"
-    src="https://www.canr.msu.edu/uploads/images/Plant%20Ag/Apple_mosaic_on_hop.jpg"
-    alt="Mosaic Virus">
+<div class="pestimagediv">
+    <img class="pestimage"
+        src="https://www.canr.msu.edu/uploads/images/Plant%20Ag/Apple_mosaic_on_hop.jpg"
+        alt="Mosaic Virus">
+</div>        
 <p>
     Caused once again by aphids, mosaic virus or hop mosaic virus is one of the most serious hop
     plant diseases. It causes yellow and green leaf mottling between the leaf veins and overall
     stunted growth of the plants.
 </p>
-<button onclick="pestclose()" >Close</button>
+<div class="pestclosebuttondiv">
+    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+</div>
 </div>`;
 
 let vert = ` <div class="col-sm-12">
-<p>
+<p class="pestheading">
     Verticillium wilt
 </p>
-<img class="trellisimg" src="https://bugwoodcloud.org/images/768x512/0656092.jpg"
-    alt="Verticillium wilt">
+<div class="pestimagediv">
+    <img class="pestimage" src="https://bugwoodcloud.org/images/768x512/0656092.jpg"
+        alt="Verticillium wilt">
+</div>        
 <p>
     This is a soil bourn disease, caused by two types of fungus, it causes yellowing of the leaves
     that start at the base of the plant, the bines can also look swollen, brown and discoloured.
@@ -86,16 +102,20 @@ let vert = ` <div class="col-sm-12">
     A common treatment is to let the plants become resistant to it, so remove the infected leaves
     and bines.
 </p>
-<button onclick="pestclose()" >Close</button>
+<div class="pestclosebuttondiv">
+    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+</div>
 </div>`;
 
 let mildew = `<div class="col-sm-12">
-<p>
+<p class="pestheading">
     Downy Mildew & Powdery Mildew
 </p>
-<img class="trellisimg"
-    src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Downy_and_Powdery_mildew_on_grape_leaf.JPG"
-    alt="Downy mildew">
+<div class="pestimagediv">
+    <img class="pestimage"
+        src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Downy_and_Powdery_mildew_on_grape_leaf.JPG"
+        alt="Downy mildew">
+</div>    
 <p>
     Downy Mildew, causes the plant to become stunted. The cones brown and curl and the underside of
     leaves become mottled with brown lesions and a yellow halo.
@@ -106,15 +126,19 @@ let mildew = `<div class="col-sm-12">
     with white patches on the stems and cones. The plant's growth will be slow and the leaves
     become covered with the white mildew.
 </p>
-<button onclick="pestclose()" >Close</button>
+<div class="pestclosebuttondiv">
+    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+</div>
 </div>`;
 
 let nute = `<div class="col-sm-12">
-<p>
+<p class="pestheading">
     Nutrient deficiency
 </p>
-<img class="trellisimg" src="https://onspecialtycrops.files.wordpress.com/2015/07/hopperburn.jpg"
-    alt="Nutrient deficiency">
+<div class="pestimagediv">
+    <img class="pestimage" src="https://onspecialtycrops.files.wordpress.com/2015/07/hopperburn.jpg"
+        alt="Nutrient deficiency">
+</div>    
 <p>
     By far the most common problem, other than over or under watering, especially in potted hops plants are nutrient deficiencies. <br>Hops strip the
     soil of nutrients, in the ground decaying plant matter will normally become the food of choice,
@@ -125,5 +149,7 @@ let nute = `<div class="col-sm-12">
     will allow, and avoid the idea of 99p bags of compost, cheaper grades of compost can
     commonly contain Chafer grubs that will have a field day chewing on you hops rhizome.
 </p>
-<button onclick="pestclose()" >Close</button>
+<div class="pestclosebuttondiv">
+    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+</div>
 </div>`;

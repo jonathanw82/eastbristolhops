@@ -1,14 +1,61 @@
-{% extends 'base.html' %} 
-{% block title %} {{ page_title }} {% endblock %} 
+{% extends 'base.html' %}
+{% block title %} {{ page_title }} {% endblock %}
 
-{% block css %} 
-    <link rel="stylesheet" href="{{url_for ('static', filename='css/contact.css')}}" type="text/css">
-{% endblock %} 
+{% block css %}
+<link rel="stylesheet" href="{{url_for ('static', filename='css/contact.css')}}" type="text/css">
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+        emailjs.init("user_QJvVPahzIaGVve6zU9ucV");
+    })();
+    </script>
+{% endblock %}
 
 {% block content %}
-    <h1>contact</h1>
+<div class="container contactcontainer">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="contactheading">Contact Us</h1>
+            <p class="contactsubheading">
+                Please fill out this form and a member of our team will be in touch as soon as possible.
+            </p>
+        </div>
+    </div>
+        <div class="row formRow">
+            <div class="col formBox">
+                <span id="overlayBox"></span>
+                <div class="center-form">
+                    <form id="contact-form">
+                        <input type="hidden" name="email_number">
+                        <input type="text" name="from_name" id="fullname" class="form-control" placeholder="Name" required>
+                        <input type="email" name="from_email" id="emailaddress" class="form-control" placeholder="Email" required>
+                        <select class="custom-select text-muted" name="from_request" id="inlineFormCustomSelectPref">
+                            <option selected>Please Select A Request...</option>
+                            <option name="from_request" value="membership request">Membership Request</option>
+                            <option name="from_request" value="How to buy Hops">How To Buy Hops</option>
+                            <option name="from_request" value="Remove my details">Remove My Details</option>
+                            <option name="from_request" value="press/media">Press/Media</option>
+                            <option name="from_request" value="Other">Other</option>
+                          </select>
+                        <textarea  rows="5" name="message" id="projectsummery" placeholder="Message" class="form-control" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <div class="messageSent" id="messageSent"></div>
+                                <button type="submit" class="btn btn-secondary sendbutton" >Submit</button>  
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</div>
 
-{% endblock %} 
-{% block script %} 
+
+
+{% endblock %}
+{% block script %}
 <script src="/static/js/email.js"></script>
 {% endblock %}

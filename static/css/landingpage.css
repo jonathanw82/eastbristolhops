@@ -69,15 +69,29 @@ Footer{
     font-weight: 700;
 }
 
-/* modal */
+/* --------------------- modal ------------------------*/
 
 .modal-dialog{
     max-width: 80%;
     height: auto;
-
 } 
 
+.modal-ebh-image{
+    width: 90%;
+    height: auto;
+}
 
+.modalimagebox{
+    text-align: center; 
+}
+
+.close{
+    margin-right: 20px;
+}
+
+.modal_buttons{
+    text-align: center;
+}
 
 /* ------------------- Media Queries -----------------*/
 
@@ -104,6 +118,9 @@ Footer{
     }
     .createdby, #createdby{
        font-size: 0.9rem;
+   }
+   .modal-dialog{
+       max-width: 100%;
    }
 }    
     

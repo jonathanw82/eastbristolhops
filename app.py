@@ -23,7 +23,8 @@ def about():
 
 @app.route('/contact')
 def contact():
-    return render_template("contact.html", page_title="Contact")
+    return render_template("contact.html", page_title="Contact",
+                           background='background_image_contact')
 
 
 if __name__ == "__main__":

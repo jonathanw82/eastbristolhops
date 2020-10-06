@@ -93,7 +93,39 @@ p{
     color: #F79767;
 }
 
+/* ----------------------- Pest Section -----------------------*/
+
+#pestbuttons{
+    text-align: center
+}
+
+.pestheading{
+    font-family: 'Unkempt', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pestimage{
+    width: 40%;
+    height: auto;
+    border: 1px solid gray;
+}
+
+.pestimagediv{
+    text-align: center;
+}
+
+.pestclosebut{
+    text-align: center;
+}
+
+.pestclosebuttondiv{
+    text-align: center;
+}
+
 /* ----------------------- wiki images ------------------------*/
+
 .rhzimage{
     width: 60%;
     height: auto;

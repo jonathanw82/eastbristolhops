@@ -90,7 +90,7 @@ Images
 images of the pots and hops belong to Jon Wheway
 Hops on th string Photo by ELEVATE from Pexels
 Hops trellis photo from East Bristol Hops Twitter 
-© Rido 209712791 Purchased from Adobe stock
+© Rido 209712791, adobestock_304075538 Purchased from Adobe stock
 favicon.ioc Unknone artist https://www.clipart.email/download/19281353.html
 
 All images in the pest section are linked from there original sources and are therefor owned by the respective sites.
