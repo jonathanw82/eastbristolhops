@@ -29,3 +29,41 @@ function hidevideos(){
     let butname = document.getElementById('showvidbutton');
     butname.value = "Show Videos";
 }
+
+/* This function displays the pests sections */
+
+function pest(pest){
+    
+    if (pest == 'aphids'){
+        document.getElementById('pestdisplay').innerHTML = aphids;
+        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+    }
+    else if (pest == 'sooty'){
+        document.getElementById('pestdisplay').innerHTML = sooty;
+        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+    }
+    else if  (pest == 'mosaic'){
+        document.getElementById('pestdisplay').innerHTML = mosaic;
+        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+    }
+    else if  (pest == 'vert'){
+        document.getElementById('pestdisplay').innerHTML = vert;
+        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+    }
+    else if  (pest == 'mildew'){
+        document.getElementById('pestdisplay').innerHTML = mildew;
+        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+    }
+    else if  (pest == 'nute'){
+        document.getElementById('pestdisplay').innerHTML = nute;
+        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+    };
+}
+
+/* This function Closes the pests section */
+function pestclose(){
+    document.getElementById('pestdisplay').innerHTML = "";
+    document.getElementById('pestbuttons').scrollIntoView({behavior: 'smooth', block: 'center'});
+}
+
+
