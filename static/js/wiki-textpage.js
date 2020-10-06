@@ -12,15 +12,36 @@ let aphids = `<div class="col-sm-12">
         few hop plant disease, they chew into the stems and
         the underside of the leaves sucking on the sap,
         causing leaves to go yellow and weak young plants may become stunted, they also excrete a liquid
-        call (Honeydew) that can cause other problems such as sooty mould.<br> To get rid of aphids, a
-        simple spray bottle with washing up liquid and water in should do it. However, only as a last
+        call (Honeydew) that can cause other problems such as sooty mould.<br> To get rid of aphids, there are a couple of methods,<br> 
+        you can purchase aphid predators such as ladybugs and get them mail order, but this can be expensive, a
+        simple spray bottle with washing up liquid, or neem oil and water in should do it.<br> However, only as a last
         resort if you are going
         to treat your hops please do so early in the season and not after mid-august as we don't want
         soapy beer,
-        Spray in the evening after any direct sunlight or the leaves will get burn patches.
+        Spray in the evening after any direct sunlight or the leaves will get burnt patches.
+    </p>
+    <p>
+        Please note it's impossible, to totally get rid of aphids, so don't panic too much unless it is really bad, 
+        in fact in the US the (FDA) Food and Drug Administration allows up to 2,500 aphids per 10 grams of hops YUCK!!
     </p>
     <button onclick="pestclose()" >Close</button>
 </div>`;
+
+let spider = `<div class="col-sm-12">
+    <p>
+        Spider Mites
+    </p>
+    <img class="trellisimg"
+        src="https://onspecialtycrops.files.wordpress.com/2015/08/leaf-bronzing.jpg?w=457&h=347"
+        alt="spider Mites">
+    <p>
+    Although a little less common than Aphids, The most common species of spider-mites that affect hops is the Two-Spotted Spider Mite. 
+    They tend to attack in summer if the air is very dry, they attack the underside of the leaves much the same as aphids, the leaves will get light yellow patches and start to brown at the tips, holes can also start to form,
+    a real telltale sign of a serious infestation is the leaves will get a webbing form between the leaf spears, generally, at this point the leaves are dead, and the plant will become quite stunted.
+    If spider mites become an issue try wetting the whole plant each night after sundown, they tend not to favour moist foliage.
+    </p>
+    <button onclick="pestclose()" >Close</button>
+    </div>`;
 
 let sooty = ` <div class="col-sm-12">
 <p>

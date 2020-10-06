@@ -38,6 +38,10 @@ function pest(pest){
         document.getElementById('pestdisplay').innerHTML = aphids;
         document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
     }
+    else if (pest == 'spider'){
+        document.getElementById('pestdisplay').innerHTML = spider;
+        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+    }
     else if (pest == 'sooty'){
         document.getElementById('pestdisplay').innerHTML = sooty;
         document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
