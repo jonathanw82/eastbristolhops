@@ -76,6 +76,29 @@ Having trouble with alcohol contains 2 links one to Drinkaware and the other to 
 The Contact page has navigation across the top and footer across the bottom, with a form across the middle of the page and a submit button below that. On submit, an overlay with hops image spinning around and loading please wait is displayed while the information is being sent to via the emailJS API, once the information is sent the overlay clears and a thank you, we have received your email message is injected via javascript. The API is linked to the East Bristol Hops email account so all correspondence from the website is sent to that inbox.
 
 
+### Styling
+
+### Font 
+<div align="center">
+    <img src="static/media/fontused.jpg" alt="color card" aria-label="font used" />
+</div>
+
+* The main site headings and subheadings used a google font 'Unkempt' I felt the shape worked well with the font used on the originl logo. 
+  I wanted something fun and easy to read that was inkeeping.
+* Over all the main font used was standard Roboto. The standard font felt at home and was very legible.
+
+### Colours
+<div align="center">
+    <img src="static/media/colourscheme.jpg" alt="color card" aria-label="color card" />
+</div>
+
+- Green/Mustard: #C6AE34
+- Green/Yellow #DCE122
+- Burnt Orange #F79767
+- Blue/Gray #C8C9CB
+
+* This colour selection matched as close to the original artwork as I was able to get with out loseing the pop it needed.
+
 ## Technology’s used will include:
 <div align="center">
    <img width="45%" height:auto;" src="static/media/techlogos.jpg" alt="tech logo image"/>
@@ -132,36 +155,18 @@ At this point you will be sent a confirmation email, once the link in the email 
 Once all setup and logged in, click on the create new app button, then give your project a name using hyphens instead of spaces. The name has to be unique as 
 Heroku has thousands of apps and they cannot have the same name, select your region and select create app.
 
-You will then be presented with a dashboard with listings of command lines for use in a bash command line.
+You will then be presented with a dashboard with listings of your app names.
 
-## You now have 2 choices
-# Depending on workspace and operating system, you can do either,
-# 1,
-From your workspace of choice open the command line and install Heroku depending on workspace, type (pip3 install heroku) once installed, type (heroku login -I)
-then enter your email and password you set Heroku up with. It will then state you are logged in. 
-
-We will now need to push our files to Heroku to be deployed or our live version.
-
-To do this in Heroku go to the app you created earlier then select deploy, under app information you will see Heroku git URL copy the url, in the bash 
-command line in the work space of choice type (heroku git:remote –a <app_name>) at this point you need to push all your data up to Heroku.
-
-To do this from your git bash command line type (git add .) then (git commit –m “deploy to heroku”) then (git push –u heroku master ) this will take a few minutes to push all the data to 
-Heroku. 
-
-# 2,
 From the Heroku dashboard select the app you just created, go to the deploy tab, scroll down to deployment method and click on GitHub, below you will see a connect to GitHub section, from the dropdown select your GitHub user name, then leaving the repo-name box empty click search, all the repos in your GitHub will display find the relevant repo and click connect. 
 
 Below this, there will be 2 sections that appear Automatic deploys and Manual deploys. If you set up automatic deploy, every time you make a change to the website and push to GitHub it will be automatically deployed in Heroku, I personally would not recommend this as it can have its disadvantages if, for instance, you leave debug= True and so on. 
 
 I would only use manual deploy then you can deploy on your terms after thew code has been tested and things are none working, to use this click deploy branch it will already be set to master, the site will be uploaded and deployed.
 
-We then need to setup a web process to do this at the command prompt type (heroku ps:scale web=1) after this our web process will be running we will now need to set up some 
-config Vars in heroku.
-
 Go back to heroku go to settings click reveal config vars, there will be a few things to add here, first setup IP so in the box that says Key type (IP) and in 
-the value box type (0.0.0.0) click add then do the same but type (PORT) and set that to (5000) click add. You will also need to add (MONGO_URI) and the (SECRET_KEY) for this information contact You site developer.
+the value box type (0.0.0.0) click add then do the same but type (PORT) and set that to (5000) click add. 
 
-Once all the steps have been taken, click more top right hand side of page and select restart all dynos the application will now be deployed.
+Once all the steps have been taken, click more, top right hand side of page and select restart all dynos the application will now be deployed.
 
 If a message pops up stating there may be some down time until the restart has finished click OK.
 
@@ -170,6 +175,8 @@ Under the settings tab in Heroku, scroll down to domains and your link will be d
 Deployment: The site will be deployed by 
 https://www.heroku.com/
 
+
+## Media
 bine or vine.
 Infomation from https://abushelofhops.co.uk/news/dried-hop-vines-v-dried-hop-bines-whats-difference/
 
@@ -183,6 +190,8 @@ https://paulund.co.uk/how-to-create-an-animated-scroll-to-top-button-with-jquery
 
 Images 
 images of the pots and hops belong to Jon Wheway
+All East Bristol Hops logos with the hops where created by the original founders of East Bristol Hops. 
+
 Hops on th string Photo by ELEVATE from Pexels
 Hops trellis photo from East Bristol Hops Twitter 
 © Rido 209712791, adobestock_304075538 Purchased from Adobe stock
@@ -190,5 +199,3 @@ favicon.ioc Unknone artist https://www.clipart.email/download/19281353.html
 
 All images in the pest section are linked from there original sources and are therefor owned by the respective sites.
 
-Fonts
-Unkempt & Cuprum google fonts licenced under Open Font Licence.
