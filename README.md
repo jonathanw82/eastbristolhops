@@ -7,10 +7,7 @@
 #### Click on image for live version
 </div>
 
-# eastbristolhops
-A website for a community hops growing association, that collectively grow hops in gardens and allotments.
-
-Then a special green hopped beer is produced by a local bristol brewery Dawkins Ales
+A website for the community project East Bristol Hops, a collective of people who grow brewing hops in there gardens and allotments. This website is intended to act as a gateway, to connect people to the project and give the information they need to find the contact details and social media platforms.
 
 
 #### Visitors to this website are searching for:
@@ -74,6 +71,7 @@ Having trouble with alcohol contains 2 links one to Drinkaware and the other to 
 
 #### Contact:
 The Contact page has navigation across the top and footer across the bottom, with a form across the middle of the page and a submit button below that. On submit, an overlay with hops image spinning around and loading please wait is displayed while the information is being sent to via the emailJS API, once the information is sent the overlay clears and a thank you, we have received your email message is injected via javascript. The API is linked to the East Bristol Hops email account so all correspondence from the website is sent to that inbox.
+##
 
 ### Styling
 
@@ -97,6 +95,7 @@ The Contact page has navigation across the top and footer across the bottom, wit
 - Blue/Gray #C8C9CB
 
 * This colour selection matched as close to the original artwork as I was able to get with out loseing the pop it needed.
+
 
 ## Technology’s used will include:
 <div align="center">
