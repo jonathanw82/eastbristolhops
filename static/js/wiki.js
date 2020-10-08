@@ -37,30 +37,37 @@ function pest(pest){
     if (pest == 'aphids'){
         document.getElementById('pestdisplay').innerHTML = aphids;
         document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if (pest == 'spider'){
         document.getElementById('pestdisplay').innerHTML = spider;
         document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if (pest == 'sooty'){
         document.getElementById('pestdisplay').innerHTML = sooty;
         document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if  (pest == 'mosaic'){
         document.getElementById('pestdisplay').innerHTML = mosaic;
         document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if  (pest == 'vert'){
         document.getElementById('pestdisplay').innerHTML = vert;
         document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if  (pest == 'mildew'){
         document.getElementById('pestdisplay').innerHTML = mildew;
         document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if  (pest == 'nute'){
         document.getElementById('pestdisplay').innerHTML = nute;
         document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     };
 }
 
@@ -68,6 +75,5 @@ function pest(pest){
 function pestclose(){
     document.getElementById('pestdisplay').innerHTML = "";
     document.getElementById('pestbuttons').scrollIntoView({behavior: 'smooth', block: 'center'});
+    document.getElementById('scrollToTop').className = 'scrollToTop';
 }
-
-

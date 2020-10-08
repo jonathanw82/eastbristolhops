@@ -12,7 +12,7 @@
 
             <!-- This button is hidden untill the page is scrolled then appears half way 
                 down the page and animates scrolling to the top on click -->
-            <a href="#" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
+            <a href="#" id="scrollToTop" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
 
             <h1 class="wikiheading">Its all about the hops!</h1>
             <p class="wikisub-heading">Ever wondered why they call hops a bine, not a vine?
@@ -67,7 +67,7 @@
             <!-- This section injects the videos from javascript -->
             <h3 class="paragarphheading">How to test soil PH</h3>
             <div class="showvidbutton">
-                <input class="btn btn-secondary" type="button" id="showvidbutton" onclick="showvideos()"
+                <input class="btn btn-secondary buttonsclick" type="button" id="showvidbutton" onclick="showvideos()"
                     value="Show Videos"></input>
             </div>
             <div class="videos" id="videos"></div>
@@ -154,13 +154,13 @@
                 Here are a few of the most common.
             </p>
             <div id="pestbuttons">
-                <button class="btn btn-secondary" type="button" onclick="pest('aphids')">Aphids</button>
-                <button class="btn btn-secondary" type="button" onclick="pest('spider')">Spider Mites</button>
-                <button class="btn btn-secondary" type="button" onclick="pest('sooty')">Sooty Mould</button>
-                <button class="btn btn-secondary" type="button" onclick="pest('mosaic')">Mosaic Hops Virus</button>
-                <button class="btn btn-secondary" type="button" onclick="pest('vert')">Verticillium wilt</button>
-                <button class="btn btn-secondary" type="button" onclick="pest('mildew')">Downy & Powdery Mildew</button>
-                <button class="btn btn-secondary" type="button" onclick="pest('nute')">Nutrient Deficiency</button>
+                <button class="btn btn-secondary buttonsclick" type="button" onclick="pest('aphids')">Aphids</button>
+                <button class="btn btn-secondary buttonsclick" type="button" onclick="pest('spider')">Spider Mites</button>
+                <button class="btn btn-secondary buttonsclick" type="button" onclick="pest('sooty')">Sooty Mould</button>
+                <button class="btn btn-secondary buttonsclick" type="button" onclick="pest('mosaic')">Mosaic Hops Virus</button>
+                <button class="btn btn-secondary buttonsclick" type="button" onclick="pest('vert')">Verticillium wilt</button>
+                <button class="btn btn-secondary buttonsclick" type="button" onclick="pest('mildew')">Downy & Powdery Mildew</button>
+                <button class="btn btn-secondary buttonsclick" type="button" onclick="pest('nute')">Nutrient Deficiency</button>
             </div>
             <div class="row">
                 <div id="pestdisplay"></div>

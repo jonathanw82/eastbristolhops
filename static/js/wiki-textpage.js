@@ -26,7 +26,9 @@ let aphids = `<div class="col-sm-12">
         Please note it's impossible, to totally get rid of aphids, so don't panic too much unless it is really bad, 
         in fact in the US the (FDA) Food and Drug Administration allows up to 2,500 aphids per 10 grams of hops YUCK!!
     </p>
-    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+    <div class="pestclosebuttondiv">
+    <button class="pestclosebut btn btn-secondary buttonsclick" onclick="pestclose()" >Close</button>
+    </div>
 </div>`;
 
 let spider = `<div class="col-sm-12">
@@ -45,7 +47,7 @@ let spider = `<div class="col-sm-12">
     If spider mites become an issue try removing the effected area, then wet the whole plant each night after sundown, they tend not to favour moist humid foliage.
 </p>
 <div class="pestclosebuttondiv">
-    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+    <button class="pestclosebut btn btn-secondary buttonsclick" onclick="pestclose()" >Close</button>
 </div>
     </div>`;
 
@@ -64,7 +66,7 @@ let sooty = ` <div class="col-sm-12">
     this mould you have to tackle the aphids that cause it in the first place.
 </p>
 <div class="pestclosebuttondiv">
-    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+    <button class="pestclosebut btn btn-secondary buttonsclick" onclick="pestclose()" >Close</button>
 </div>
 </div>`;
 
@@ -83,7 +85,7 @@ let mosaic = ` <div class="col-sm-12">
     stunted growth of the plants.
 </p>
 <div class="pestclosebuttondiv">
-    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+    <button class="pestclosebut btn btn-secondary buttonsclick" onclick="pestclose()" >Close</button>
 </div>
 </div>`;
 
@@ -103,7 +105,7 @@ let vert = ` <div class="col-sm-12">
     and bines.
 </p>
 <div class="pestclosebuttondiv">
-    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+    <button class="pestclosebut btn btn-secondary buttonsclick" onclick="pestclose()" >Close</button>
 </div>
 </div>`;
 
@@ -127,7 +129,7 @@ let mildew = `<div class="col-sm-12">
     become covered with the white mildew.
 </p>
 <div class="pestclosebuttondiv">
-    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+    <button class="pestclosebut btn btn-secondary buttonsclick" onclick="pestclose()" >Close</button>
 </div>
 </div>`;
 
@@ -150,6 +152,6 @@ let nute = `<div class="col-sm-12">
     commonly contain Chafer grubs that will have a field day chewing on you hops rhizome.
 </p>
 <div class="pestclosebuttondiv">
-    <button class="pestclosebut" onclick="pestclose()" >Close</button>
+    <button class="pestclosebut btn btn-secondary buttonsclick" onclick="pestclose()" >Close</button>
 </div>
 </div>`;

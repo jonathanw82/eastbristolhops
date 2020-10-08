@@ -50,7 +50,6 @@ footer{
     text-align: center;
     margin-top: auto;
     bottom: 0;
-    /* position: absolute; */
     width: 100%;
 }
 
@@ -92,14 +91,7 @@ footer{
     
 
 @media only screen and (min-width: 768px){
-/* 
-    .nav-name-mobile{
-        display: none;
-    }
 
-    .nav-name-mobile1{
-        display: none;
-    } */
 }
 @media only screen and (min-width: 991px){
     #mobilelogo{
@@ -137,15 +129,6 @@ footer{
     }
 }
 
-/* @media only screen and (min-width: 769px){
-
-    #mobilelogo{
-        display: none;
-    }
-   
-} */
-
-
 @media only screen and (max-width: 768px){
 
     .hop{
@@ -177,7 +160,6 @@ footer{
     }
 }     
 
-
 @media only screen and (max-width: 425px){
 
     .underconstruction{
@@ -197,12 +179,9 @@ footer{
     }
 }    
    
-
 @media only screen and (max-width: 375px){
 
-
 }    
-
 
 @media only screen and (max-width: 320px){
 

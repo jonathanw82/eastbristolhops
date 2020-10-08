@@ -190,6 +190,8 @@ Images
 images of the pots and hops belong to Jon Wheway
 All East Bristol Hops logos with the hops where created by the original founders of East Bristol Hops. 
 
+Hop Icon #181207 from https://icon-library.com/icon/hop-icon-1.html
+
 Hops on th string Photo by ELEVATE from Pexels
 Hops trellis photo from East Bristol Hops Twitter 
 © Rido 209712791, adobestock_304075538 Purchased from Adobe stock

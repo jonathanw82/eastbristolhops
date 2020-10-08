@@ -51,6 +51,19 @@ footer{
     margin-bottom: 4px;
 }
 
+.buttonsclick{
+    border: 1px solid white;
+    margin: 3px;
+}
+
+.buttonsclick:hover{
+    border: 1px solid white;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none!important;
+}
 /*-------------- add event spinner-------------- */
 .formBox{
     max-width: 80%;

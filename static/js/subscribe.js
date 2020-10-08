@@ -23,7 +23,7 @@ var observer2 = new MutationObserver(function(mutations) {
 var target2 = document.getElementById('mce-success-response');
 observer2.observe(target2, { attributes : true, attributeFilter : ['style'] });
 
-
+// After 4 seconds the timeout triggers the backbut function and redirects to the landing page
 function autoRedirect(){
     setTimeout(backbut, 4000);
 }
@@ -32,4 +32,3 @@ function autoRedirect(){
 function backbut(){
     window.location.replace("http://www.eastbristolhops.co.uk");
 }
-

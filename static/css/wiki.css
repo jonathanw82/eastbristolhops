@@ -7,6 +7,24 @@ p{
     font-size: 1.2rem;
 }
 
+.buttonsclick{
+    border: 1px solid white;
+    margin: 3px;
+}
+
+.buttonsclick:hover{
+    border: 1px solid white;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none!important;
+}
+
+.hideScrollToTop{
+    display: none;
+}
+
 .wikicontainer{
     margin-bottom: 50px;
 }
@@ -96,7 +114,7 @@ p{
 /* ----------------------- Pest Section -----------------------*/
 
 #pestbuttons{
-    text-align: center
+    text-align: center;
 }
 
 .pestheading{
@@ -107,9 +125,10 @@ p{
 }
 
 .pestimage{
-    width: 40%;
+    width: 60%;
     height: auto;
     border: 1px solid gray;
+    margin-bottom: 10px;
 }
 
 .pestimagediv{
@@ -187,6 +206,9 @@ p{
     
     .scrollToTop{
         right:10px;
+    }
+    .pestimage{
+        width: 80%;
     }   
 }  
 
@@ -210,6 +232,9 @@ p{
     }
     .paragarphsubheading{
         text-align: center;
+    }
+    .pestimage{
+        width: 90%;
     }
 }    
    
@@ -265,4 +290,5 @@ p{
     .underimage{
         padding-top: 0px;
     }
+
 }
