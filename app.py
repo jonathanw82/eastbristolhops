@@ -29,7 +29,8 @@ def contact():
 
 @app.route('/subscribe')
 def subscribe():
-    return render_template("subscribe.html", page_title="SignUp")
+    return render_template("subscribe.html", page_title="Subscribe To Mailing\
+                           List", background='background_image_mailinglist')
 
 
 if __name__ == "__main__":
