@@ -75,7 +75,6 @@ Having trouble with alcohol contains 2 links one to Drinkaware and the other to 
 #### Contact:
 The Contact page has navigation across the top and footer across the bottom, with a form across the middle of the page and a submit button below that. On submit, an overlay with hops image spinning around and loading please wait is displayed while the information is being sent to via the emailJS API, once the information is sent the overlay clears and a thank you, we have received your email message is injected via javascript. The API is linked to the East Bristol Hops email account so all correspondence from the website is sent to that inbox.
 
-
 ### Styling
 
 ### Font 

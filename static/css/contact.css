@@ -18,7 +18,7 @@ footer{
 .contactcontainer{
     color: #fff;
     background-color: rgba(60,60,60,0.8);
-    width: 60%;
+    width: 70%;
     height: auto; 
     padding: 30px; 
     margin: auto;
@@ -119,9 +119,26 @@ footer{
 
   /* ------------------- Media Queries contact.html -----------------*/
 
+  @media only screen and (max-width: 1440px){
+
+   .spacerdiv{
+        height: 50px;
+    }
+}
+
 @media only screen and (max-width: 768px){
-    
-   
+
+    .contactcontainer{
+        width: 80%;
+        padding: 20px;
+    }
+    .sendbutton{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .spacerdiv{
+        height: 20px;
+    }
 }    
 
 @media only screen and (max-width: 425px){
@@ -129,16 +146,30 @@ footer{
     .formBox{
         max-width: 100%;
     }
-
     .loadingText{
         font-size: 1.8rem;
     }
+    .contactcontainer{
+        width: 95%;
+        padding: 15px;
+    }
+    .contactheading{
+        font-size: 1.8rem;
+    }
+    .spacerdiv{
+        height: 50px;
+    }
 }    
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 375px){
 
     .loadingText{
         font-size: 1.6rem;
     }
-    
+    .contactheading{
+        font-size: 1.7rem;
+    }
+    .contactsubheading {
+        font-size: 1.1rem;
+    }
 }  

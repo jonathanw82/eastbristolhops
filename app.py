@@ -27,6 +27,11 @@ def contact():
                            background='background_image_contact')
 
 
+@app.route('/subscribe')
+def subscribe():
+    return render_template("subscribe.html", page_title="SignUp")
+
+
 if __name__ == "__main__":
     app.run(host=os.environ.get('IP', '0.0.0.0'),
             port=int(os.environ.get('PORT', 5000)),

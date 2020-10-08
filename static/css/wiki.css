@@ -183,21 +183,12 @@ p{
     }
 }
 
-
 @media only screen and (max-width: 768px){
     
     .scrollToTop{
         right:10px;
-    }
-   
+    }   
 }  
-
-/* @media only screen and (max-width: 762px){
-    .trenchimg{
-        margin: auto;
-    }
-}   */
-
 
 @media only screen and (max-width: 425px){
     .wikibox{

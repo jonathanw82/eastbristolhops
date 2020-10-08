@@ -11,7 +11,7 @@
     background-color: gray;
     text-decoration: none;
     position:fixed;
-    top:600px;
+    top:80%;
     right:10px;
     display:none;
     z-index: 500;
@@ -61,11 +61,13 @@
     .scrollToTop{
         right:10px;
     }
+    .scrollToTop{
+        top:60%;
+    }
 }     
  
 @media only screen and (max-width: 320px){
-
     .scrollToTop{
-        top:450px;
+        top:80%;
     }
 }
