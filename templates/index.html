@@ -27,10 +27,9 @@
                 So what's it all about?
             </p>
             <p>
-                Well good question, its all about the hops and beer, but mostly hops, whether in pots or in the ground
-                on our allotments, balconies, gardens
-                pretty much anywhere hops will grow.<br>
-                More info about growing hops can be found on our <a class="wikilinkinline"
+                Well, good question, it's all about hops and beer, but mostly hops, whether in pots or in the ground, on
+                our allotments, balconies, gardens, pretty much anywhere hops will grow we will grow it.<br>
+                More information on growing hops can be found on our <a class="wikilinkinline"
                     href="{{ url_for ('wiki')}}">HopsWiki.</a>
             </p>
             <p>
@@ -41,6 +40,14 @@
                 Green hop ale is unusual because the hops start to lose their oils and flavours as soon as they are
                 picked,<br> so they need to go from vine to brewing kettle in hours.
             </p>
+            <div class="row landingimagerow">
+                <div class="col-sm-6 ">
+                    <img class="landingimages" src="/static/media/hopsonbine.jpg" alt="hops on bine">
+                </div>
+                <div class="col-sm-6 ">
+                    <img class="landingimages" src="/static/media/bagsofhops.jpg" alt="bags hops">
+                </div>
+            </div>
             <p>
                 But if you can find good local
                 hops, you’ll be able to brew a unique
@@ -49,16 +56,17 @@
                 special discount on some more.
             </p>
             <p>
-                Whats more you’ll also be able to wander into your local and buy a pint that you helped make.
+                What's more, you’ll also be able to wander into your local pub and buy a pint that you helped make.
             </p>
             <br>
             <hr color="gray">
             <br>
             <p class="landingsubparagraph">
-                Want to know more about how to be aprt of theis comunity?
+                Want to know more about how to be apart of this community?
             </p>
             <p>
-                For all you need to know for how to get involved and be part of this fantastic comunity, <br> please chackout our
+                All need to know about how to get involved and be part of this fantastic community, <br> please
+                check out our
                 <a href="{{ url_for ('about') }}"><strong>About</strong></a> page!
             </p>
         </div>
@@ -82,18 +90,19 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="modalimagebox">
-                        <button type="button" class="close" data-dismiss="modal" onclick="clear_modal()" aria-label="Close">X</button>
+                        <button type="button" class="close" data-dismiss="modal" onclick="clear_modal()"
+                            aria-label="Close">X</button>
                         <img class="modal-ebh-image" src="/static/media/ebhnavheader.png" alt="East bristol hops logo">
                         <h5 class="card-title">
                             Sign up to the Mailing List to receive occasional updates about hop
-                            collection dates, growers parties and year-round socials, as well as tips and tricks to maximise your harvest!
-                            </h5>
+                            collection dates, growers parties and year-round socials, as well as tips and tricks to
+                            maximise your harvest!
+                        </h5>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 modal_buttons">
-                        <a class="modal-button" onclick="clear_modal()"
-                            href="{{ url_for('subscribe')}}">Signup!</a>
+                        <a class="modal-button" onclick="clear_modal()" href="{{ url_for('subscribe')}}">Signup!</a>
                     </div>
                 </div>
             </div>
