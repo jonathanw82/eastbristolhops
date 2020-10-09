@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="{{url_for ('static', filename='css/landingpage.css')}}" type="text/css">
 {% endblock %}
 {% block js %}
+<script src="{{url_for('static', filename='js/sessioncookie.js')}}"></script>
 {% endblock %}
 
 {% block content %}
@@ -111,5 +112,5 @@
 </div>
 {% endblock %}
 {% block script %}
-<script src="{{url_for('static', filename='js/sessioncookie.js')}}"></script>
+
 {% endblock %}
