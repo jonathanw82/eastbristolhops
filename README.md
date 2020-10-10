@@ -98,6 +98,13 @@ The Contact page has navigation across the top and footer across the bottom, wit
 - Blue/Gray #C8C9CB
 
 * This colour selection matched as close to the original artwork as I was able to get with out loseing the pop it needed.
+##
+
+<div align="center">
+    <img src="static/media/ami resposive.jpg" alt="color card" aria-label="am i responsive" />
+</div>
+
+##
 
 
 ## Technology’s used will include:
