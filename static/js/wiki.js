@@ -33,45 +33,41 @@ function hidevideos(){
 /* This function displays the pests sections */
 
 function pest(pest){
-    
+    WikiPestBehaviour();
+
     if (pest == 'aphids'){
         document.getElementById('pestdisplay').innerHTML = aphids;
-        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
-        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if (pest == 'spider'){
         document.getElementById('pestdisplay').innerHTML = spider;
-        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
-        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if (pest == 'sooty'){
         document.getElementById('pestdisplay').innerHTML = sooty;
-        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
-        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if  (pest == 'mosaic'){
         document.getElementById('pestdisplay').innerHTML = mosaic;
-        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
-        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if  (pest == 'vert'){
         document.getElementById('pestdisplay').innerHTML = vert;
-        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
-        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if  (pest == 'mildew'){
         document.getElementById('pestdisplay').innerHTML = mildew;
-        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
-        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     }
     else if  (pest == 'nute'){
         document.getElementById('pestdisplay').innerHTML = nute;
-        document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
-        document.getElementById('scrollToTop').className = 'hideScrollToTop';
     };
 }
 
-/* This function Closes the pests section */
+/* This function scrolls the pestdislay in to view and hides the back to top button */
+
+function WikiPestBehaviour(){
+    document.getElementById('pestdisplay').scrollIntoView({behavior: 'smooth'});
+    document.getElementById('scrollToTop').className = 'hideScrollToTop';
+}
+
+/* This function Closes the pests section and scrolls the pest buttons back to view center page 
+and shows the back to top button. */
+
 function pestclose(){
     document.getElementById('pestdisplay').innerHTML = "";
     document.getElementById('pestbuttons').scrollIntoView({behavior: 'smooth', block: 'center'});

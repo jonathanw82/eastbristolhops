@@ -60,6 +60,9 @@ the growing hops section has subheaders, Location, Sowing and Planting, How to t
 and Harvest Time. The how to test soil ph section has a button, on click will display 2 videos, one about soil ph and the other on how to use 
 a ph meter, on click of the button a second time will hide the videos.
 
+During the creation of the HopsWiki, I found that when a user clicked on a pest button, the scroll to the top button would get in the way, I found it was a better UX experience if I implemented some javascript,
+that changed the CSS class to hide the back to the top button and scroll the particular section into view, then onclick of the close button change the CSS back to its original class displaying the back to top button and scrolling the pest buttons centre screen.
+
 
 #### About:
 The About page has navigation across the top and footer across the bottom, a background image displaying the first party's images and a grey semi-transparent box overlay containing the page information that consists of, clear section headers, How to become part of our community, Where it all began, whats this beer all about and a having trouble with alcohol section.

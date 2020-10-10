@@ -5,7 +5,7 @@
 */
 
 function clear_modal(){
-  var d = new Date();
+  let d = new Date();
   let key = 'signup';
   let value = 'clicked';  
   d.setTime(d.getTime() + (100 * 24 * 60 * 60 * 1000));
