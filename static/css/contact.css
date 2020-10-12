@@ -15,6 +15,16 @@ footer{
     min-height: 100vh;
 }
 
+.signupbutton{
+    color:#C6AE34;
+}
+
+.signupbutton:hover{
+    text-decoration: none;
+    color:#F79767;
+}
+
+
 .contactcontainer{
     color: #fff;
     background-color: rgba(60,60,60,0.8);

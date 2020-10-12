@@ -1,11 +1,15 @@
 import os
 from flask import Flask, render_template
+from flask_jsglue import JSGlue
 from os import path
 if path.exists("env.py"):
     import env
 
 
 app = Flask(__name__)
+
+# jsglue allows Url_for to be used in javascript in the font end.
+jsglue = JSGlue(app)
 
 
 @app.route('/')
@@ -31,10 +35,11 @@ def contact():
                            background='background_image_contact')
 
 
-@app.route('/subscribe')
-def subscribe():
+@app.route('/subscribe/<pagefrom>')
+def subscribe(pagefrom):
     return render_template("subscribe.html", page_title="Subscribe To Mailing\
-                           List", background='background_image_mailinglist')
+                           List", background='background_image_mailinglist',
+                           page_from=pagefrom)
 
 
 if __name__ == "__main__":

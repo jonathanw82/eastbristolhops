@@ -53,6 +53,8 @@ a welcome message just below the navigation bar, followed by the East Bristol Ho
 than a want to know more section below that with links to the about page. At the very bottom of this page is a website developed by 
 section with a think to the developer's website.
 
+There is also a modal pop up asking whether the user wants to sign up to the mailing list, this has the East Bristol Hops logo across the top with a X that is a close button, a subheading asking to signup and a signup link. regardless of where the signup link is pressed or the close X, the modal will be cleared and a cookie set that will stop it popping up again for 100 days.
+
 
 #### HopsWiki:
 The HopsWiki page has navigation across the top and footer across the bottom, a background image displaying hops and a grey semi-transparent box overlay containing the page information that consists of, clear section headers Ita all about hops, What are hops, Bine or Vine, Growing Hops.
@@ -73,7 +75,16 @@ Having trouble with alcohol contains 2 links one to Drinkaware and the other to 
 
 
 #### Contact:
-The Contact page has navigation across the top and footer across the bottom, with a form across the middle of the page and a submit button below that. On submit, an overlay with hops image spinning around and loading please wait is displayed while the information is being sent to via the emailJS API, once the information is sent the overlay clears and a thank you, we have received your email message is injected via javascript. The API is linked to the East Bristol Hops email account so all correspondence from the website is sent to that inbox.
+The Contact page has navigation across the top and footer across the bottom, with a form across the middle of the page, and a submit button below that. On submit, an overlay with hops image spinning around and loading please wait is displayed while the information is being sent to via the emailJS API, once the information is sent the overlay clears and a thank you, we have received your email message is injected via javascript. The API is linked to the East Bristol Hops email account so all correspondence from the website is sent to that inbox.
+
+
+#### Subscribe:
+The Subscribe page has navigation across the top and footer across the bottom, with a form across the middle of the page, and a submit button below that. On submit, the information in the form is sent to the Mailchimp API and is accessed to see if the user has already signup if the replay is a success or an error the API sends back the respective text that is displayed in the responsediv.
+
+During the creation of the subscribe page, I felt it lacked a back button if there was an error, so I used Javascript to inject one that uses a global variable called globalpagename, this is created depending on where the subscribe page was first accessed from, on the landing page a modal pop up, with a link called signup! or the 'about' page with a link called mailing list these buttons also carries parameters that are the page it came from, the parameter is then sent to the backend and routed via flask to the subscribe page, when the form is filled out and the subscribe button is pressed an onclick() sends the page_name to a function in javascript it is then turned into a global variable that multiple functions can use to direct to the relevant page. 
+
+If the form is successful, the positive response text is displayed and text mentioning that this page will automatically redirect with a back button link just in case the auto-redirect javascript fails. When auto-redirect function is called there is a delay of 3 seconds to allow the user to see the response text, and then the backbut() function is called, where an, if statement decides what page name is held in the globalpagename variable and then runs the relevant subroutine to take the user to the page they originally came from.
+
 ##
 
 ### Styling
@@ -121,8 +132,8 @@ The Contact page has navigation across the top and footer across the bottom, wit
 Tested on four Browsers
 * Chrome    Works as intended.
 * Opera     Works as intended.
-* Firefox   
-* Edge      
+* Firefox   Some CSS around the images remders the incorrect colours some Horizontal rules are also the incorrect colour, and some javascript functions fail to trigger.
+* Edge      Works as intended.
 
 
 ### Deployment:
@@ -169,7 +180,7 @@ From the Heroku dashboard select the app you just created, go to the deploy tab,
 
 Below this, there will be 2 sections that appear Automatic deploys and Manual deploys. If you set up automatic deploy, every time you make a change to the website and push to GitHub it will be automatically deployed in Heroku, I personally would not recommend this as it can have its disadvantages if, for instance, you leave debug= True and so on. 
 
-I would only use manual deploy then you can deploy on your terms after thew code has been tested and things are none working, to use this click deploy branch it will already be set to master, the site will be uploaded and deployed.
+I would only use manual deploy then you can deploy on your terms after thew code has been tested and things are none to be working, to use this click deploy branch it will already be set to master, the site will be uploaded and deployed.
 
 Go back to heroku go to settings click reveal config vars, there will be a few things to add here, first setup IP so in the box that says Key type (IP) and in 
 the value box type (0.0.0.0) click add then do the same but type (PORT) and set that to (5000) click add. 
@@ -195,6 +206,9 @@ Javascript Email service https://www.emailjs.com/
 
 scroll to top icon
 https://paulund.co.uk/how-to-create-an-animated-scroll-to-top-button-with-jquery
+
+User of Flask syntax in javascript
+https://stewartpark.github.io/Flask-JSGlue/
 
 Images 
 images of the pots and hops belong to Jon Wheway
