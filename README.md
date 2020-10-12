@@ -48,6 +48,7 @@ A website for the community project East Bristol Hops, a collective of people wh
 * Javascript contact page that sends messages stright to the assosciation email.
 * A scroll to top button that appears when any page has been scrolled more than 100 pixels.
 * A pop up banner asking the user to sign up to the mailing list.
+* A Javascript redirect from the subcribe page.
 * Footer contains social media links and copyright information.
 
 
@@ -70,6 +71,7 @@ the growing hops section has subheaders, Location, Sowing and Planting, How to t
 and Harvest Time. The how to test soil ph section has a button, on click will display 2 videos, one about soil ph and the other on how to use 
 a ph meter, on click of the button a second time will hide the videos.
 
+## HopsWiki UX Improvements:
 During the creation of the HopsWiki, I found that when a user clicked on a pest button, the scroll to the top button would get in the way, I found it was a better UX experience if I implemented some javascript,
 that changed the CSS class to hide the back to the top button and scroll the particular section into view, then onclick of the close button change the CSS back to its original class displaying the back to top button and scrolling the pest buttons centre screen.
 
@@ -89,9 +91,10 @@ The Contact page has navigation across the top and footer across the bottom, wit
 #### Subscribe:
 The Subscribe page has navigation across the top and footer across the bottom, with a form across the middle of the page, and a submit button below that. On submit, the information in the form is sent to the Mailchimp API and is accessed to see if the user has already signup if the replay is a success or an error the API sends back the respective text that is displayed in the responsediv.
 
+## Subscribe UX Improvements:
 During the creation of the subscribe page, I felt it lacked a back button if there was an error, so I used Javascript to inject one that uses a global variable called globalpagename, this is created depending on where the subscribe page was first accessed from, on the landing page a modal pop up, with a link called signup! or the 'about' page with a link called mailing list these buttons also carries parameters that are the page it came from, the parameter is then sent to the backend and routed via flask to the subscribe page, when the form is filled out and the subscribe button is pressed an onclick() sends the page_name to a function in javascript it is then turned into a global variable that multiple functions can use to direct to the relevant page. 
 
-If the form is successful, the positive response text is displayed and text mentioning that this page will automatically redirect with a back button link just in case the auto-redirect javascript fails. When auto-redirect function is called there is a delay of 3 seconds to allow the user to see the response text, and then the backbut() function is called, where an, if statement decides what page name is held in the globalpagename variable and then runs the relevant subroutine to take the user to the page they originally came from.
+If the form is successful, the positive response text is displayed and text mentioning that this page will automatically redirect with a back button link just in case the auto-redirect javascript fails. When auto-redirect function is called there is a delay of 3 seconds to allow the user to see the response text, and then the backbut() function is called, where an if statement, decides what page name is held in the globalpagename variable, and then runs the relevant subroutine to take the user to the page they originally started from.
 
 ##
 
@@ -194,30 +197,39 @@ https://www.heroku.com/
 
 
 ## Media
-bine or vine.
-Infomation from https://abushelofhops.co.uk/news/dried-hop-vines-v-dried-hop-bines-whats-difference/
+Bine or Vine.
+Infomation from: 
+https://abushelofhops.co.uk/news/dried-hop-vines-v-dried-hop-bines-whats-difference/
 
-what are hops.
-Infomation from https://www.britishhops.org.uk/hops/what-is-a-hop/
+What are Hops.
+Infomation from:
+https://www.britishhops.org.uk/hops/what-is-a-hop/
 
-Javascript Email service https://www.emailjs.com/
+Javascript Email service:
+https://www.emailjs.com/
 
-scroll to top icon
+Scroll to top icon:
 https://paulund.co.uk/how-to-create-an-animated-scroll-to-top-button-with-jquery
 
-User of Flask syntax in javascript
+User of Flask syntax in javascript:
 https://stewartpark.github.io/Flask-JSGlue/
 
-Images 
-images of the pots and hops belong to Jon Wheway
+MutationObserver in Javascript:
+https://stackoverflow.com/questions/2157963/is-it-possible-to-listen-to-a-style-change-event
+
+
+Images: 
+Images of the pots and hops belong to Jon Wheway
 All East Bristol Hops logos with the hops where created by the original founders of East Bristol Hops. 
 
-Hop Icon #181207 from https://icon-library.com/icon/hop-icon-1.html
+Hop Icon #181207 from:
+https://icon-library.com/icon/hop-icon-1.html
 
-Hops on th string Photo by ELEVATE from Pexels
+Hops on the string Photo by ELEVATE from Pexels
 Hops trellis photo from East Bristol Hops Twitter 
-© Rido 209712791, adobestock_304075538 Purchased from Adobe stock
+© Rido 209712791, adobestock_304075538 Purchased from Adobe stock.
+
 favicon.ioc Unknone artist https://www.clipart.email/download/19281353.html
 
-All images in the pest section are linked from there original sources and are therefor owned by the respective sites.
+All images in the pest section are linked from there original sources and are therefore owned by the respective sites.
 
