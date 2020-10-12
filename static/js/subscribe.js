@@ -38,10 +38,11 @@ function autoRedirect(){
 function backbut(){
     if (globalpagename == 'about'){
         window.location.replace(Flask.url_for('about'));
-        globalpagename = 0;
     }
     else if (globalpagename == 'index'){
         window.location.replace(Flask.url_for('index'));
-        globalpagename = 0;
+    }
+    else if (globalpagename == 'contact'){
+        window.location.replace(Flask.url_for('contact'));
     }
 }
