@@ -34,6 +34,14 @@ A website for the community project East Bristol Hops, a collective of people wh
 * Uncluttered and has an intuitive process of navigation.
 * Providing clean and clear infomation on all pages.
 
+## Technology’s used will include:
+<div align="center">
+   <img width="45%" height:auto;" src="static/media/techlogos.jpg" alt="tech logo image"/>
+ </div>
+                                                                                
+[HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), [Bootstrap](https://getbootstrap.com/), [Javascript](https://en.wikipedia.org/wiki/JavaScript), [jQuery](https://jquery.com/), [Python3](https://www.python.org/), [VScode](https://code.visualstudio.com/), [Balsamiq Mockup 3](https://balsamiq.com/wireframes/desktop/), [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html?gclid=EAIaIQobChMIzNru2Myo6AIVF-DtCh28Fgn0EAAYASAAEgKkdvD_BwE&sdid=88X75SKR&mv=search&ef_id=EAIaIQobChMIzNru2Myo6AIVF-DtCh28Fgn0EAAYASAAEgKkdvD_BwE:G:s&s_kwcid=AL!3085!3!394411736356!e!!g!!photoshop),
+[Flask](https://flask.palletsprojects.com/en/1.1.x/) and [Heroku](https://www.heroku.com/).
+##
 
 ## Features:
 * All pages have a navigation bar across the top with links to home, HopsWiki , about and contact.
@@ -115,16 +123,6 @@ If the form is successful, the positive response text is displayed and text ment
     <img src="static/media/ami resposive.jpg" alt="color card" aria-label="am i responsive" />
 </div>
 
-##
-
-
-## Technology’s used will include:
-<div align="center">
-   <img width="45%" height:auto;" src="static/media/techlogos.jpg" alt="tech logo image"/>
- </div>
-                                                                                
-[HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), [Bootstrap](https://getbootstrap.com/), [Javascript](https://en.wikipedia.org/wiki/JavaScript), [jQuery](https://jquery.com/), [Python3](https://www.python.org/), [VScode](https://code.visualstudio.com/), [Balsamiq Mockup 3](https://balsamiq.com/wireframes/desktop/), [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html?gclid=EAIaIQobChMIzNru2Myo6AIVF-DtCh28Fgn0EAAYASAAEgKkdvD_BwE&sdid=88X75SKR&mv=search&ef_id=EAIaIQobChMIzNru2Myo6AIVF-DtCh28Fgn0EAAYASAAEgKkdvD_BwE:G:s&s_kwcid=AL!3085!3!394411736356!e!!g!!photoshop),
-[Flask](https://flask.palletsprojects.com/en/1.1.x/) and [Heroku](https://www.heroku.com/).
 ##
 
 
