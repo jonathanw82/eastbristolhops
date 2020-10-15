@@ -13,10 +13,10 @@
     <a href="#" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
     <div class="row">
         <div class="col-sm-12 landingheader">
-            <h1 class="welcomeheading">Welcome to the home of East Bristol Hops Growers Association Est: 2016</h1>
-            <img class="ebhlandingimage" src="static/media/headerweb.jpg" alt="ebh landing image">
+            <h1 class="welcomeheading">Welcome to the home of East Bristol Hops Grower's Association Est: 2016</h1>
+                <img class="ebhlandingimage" src="static/media/headerweb.jpg" alt="ebh landing image">
             <p class="landingsubheading">
-                We are an ever-expanding group of like-minded people, who love to grow Hop plants and drink quality
+                We are an ever-expanding group of like-minded people, who love to grow hop plants and drink quality
                 beer!
             </p>
         </div>
@@ -28,18 +28,26 @@
                 So what's it all about?
             </p>
             <p>
-                Well, good question, it's all about hops and beer, but mostly hops, whether in pots or in the ground, on
-                our allotments, balconies, gardens, pretty much anywhere hops will grow we will grow it.<br>
-                More information on growing hops can be found on our <a class="wikilinkinline"
-                    href="{{ url_for ('wiki')}}">HopsWiki.</a>
+                Good question! It's all about hops and beer but mostly hops. Whether they’re in pots or the ground, and
+                whether they’re on our allotments, balconies, gardens or pretty much anywhere hops can grow, we will
+                grow them.
             </p>
             <p>
-                Everyone who gets involved will get to join a community of growers, the simple pleasure of watching
-                the hop mature, and the joy of harvesting it on the same day as everyone else and adding it to the brew.
+                Visit our <a class="wikilinkinline" href="{{ url_for ('wiki')}}">HopsWiki.</a> for more information on
+                growing hops.
             </p>
-            <p> Beer is usually made with dried hops or compressed dried pellets.
-                Green hop ale is unusual because the hops start to lose their oils and flavours as soon as they are
-                picked,<br> so they need to go from vine to brewing kettle in hours.
+            <p>
+                Everyone who gets involved will join a passionate community of growers and experience the simple
+                pleasure of watching the hop mature, as well as the joy of harvesting their ‘cones’ on the same day as
+                everyone else and collectively adding them to that year’s brew.
+            </p>
+            <p>
+                Beer is usually made with dried hops or compressed dried pellets which have lost a lot of their oils and
+                flavours. Our green hop ale is unusual because we get the hops from the bines to the brewing kettle in
+                hours, so more of the flavour is preserved.
+            </p>
+            <p>
+                In other words, with good local hops, you can brew a unique beer with a very special taste.
             </p>
             <div class="row landingimagerow">
                 <div class="col-sm-6 ">
@@ -50,11 +58,8 @@
                 </div>
             </div>
             <p>
-                But if you can find good local
-                hops, you’ll be able to brew a unique
-                beer with a very special taste. <br>
-                By early autumn we’ll get to sample our own - free pints at a party as soon as it’s brewed, and a
-                special discount on some more.
+                By early autumn the beer is ready for sampling, which everyone in the association gets to do at a party
+                as soon as it’s brewed.
             </p>
             <p>
                 What's more, you’ll also be able to wander into your local pub and buy a pint that you helped make.
@@ -63,12 +68,8 @@
             <hr color="gray">
             <br>
             <p class="landingsubparagraph">
-                Want to know more about how to be apart of this community?
-            </p>
-            <p>
-                All need to know about how to get involved and be part of this fantastic community, <br> please
-                check out our
-                <a href="{{ url_for ('about') }}"><strong>About</strong></a> page!
+                If you want to know more about how to be a part of this fantastic community please check out our 
+                <a class="linksButtons" href="{{ url_for ('about') }}"><strong>About</strong></a> page!
             </p>
         </div>
     </div>
@@ -103,7 +104,8 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 modal_buttons">
-                        <a class="modal-button" onclick="clear_modal()" href="{{ url_for('subscribe', pagefrom='index' )}}">Signup!</a>
+                        <a class="modal-button" onclick="clear_modal()"
+                            href="{{ url_for('subscribe', pagefrom='index' )}}">Signup!</a>
                     </div>
                 </div>
             </div>
@@ -112,5 +114,6 @@
 </div>
 {% endblock %}
 {% block script %}
-
+<script src="{{url_for('static', filename='js/landing.js')}}"></script>
+<!-- <script src="jquery.scrollex.min.js"></script> -->
 {% endblock %}

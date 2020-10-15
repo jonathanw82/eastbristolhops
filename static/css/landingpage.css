@@ -8,6 +8,13 @@ body{
     min-height: 100vh;
 }
 
+.linksButtons{
+    color:#F79767;
+    text-decoration: underline;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
 .welcomeheading{
     margin-top: 10px;
     font-family: 'Unkempt', cursive;

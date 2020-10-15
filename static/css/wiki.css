@@ -110,6 +110,12 @@ p{
     font-family: 'Unkempt', cursive;
     color: #F79767;
 }
+/* allows for the js slide up slide down transition */
+.videos{ 
+    transition:height 1s ease-out;
+    height:0;
+    overflow:hidden;
+}
 
 /* ----------------------- Pest Section -----------------------*/
 

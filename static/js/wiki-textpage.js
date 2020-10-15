@@ -1,7 +1,7 @@
 // Pest text and infomation displayed when the respective buttons are pressed
 
 let aphids = `<div class="col-sm-12">
-    <p class="pestheading">
+    <p class="pestheading" id="pestheading">
         Aphids
     </p>
     <div class="pestimagediv">
@@ -32,7 +32,7 @@ let aphids = `<div class="col-sm-12">
 </div>`;
 
 let spider = `<div class="col-sm-12">
-<p class="pestheading">
+<p class="pestheading" id="pestheading">
     Spider Mites
 </p>
 <div class="pestimagediv">
@@ -52,7 +52,7 @@ let spider = `<div class="col-sm-12">
     </div>`;
 
 let sooty = ` <div class="col-sm-12">
-<p class="pestheading">
+<p class="pestheading" id="pestheading">
     Sooty Mould
 </p>
 <div class="pestimagediv">
@@ -71,7 +71,7 @@ let sooty = ` <div class="col-sm-12">
 </div>`;
 
 let mosaic = ` <div class="col-sm-12">
-<p class="pestheading">
+<p class="pestheading" id="pestheading">
     Mosaic Virus
 </p>
 <div class="pestimagediv">
@@ -90,7 +90,7 @@ let mosaic = ` <div class="col-sm-12">
 </div>`;
 
 let vert = ` <div class="col-sm-12">
-<p class="pestheading">
+<p class="pestheading" id="pestheading">
     Verticillium wilt
 </p>
 <div class="pestimagediv">
@@ -110,7 +110,7 @@ let vert = ` <div class="col-sm-12">
 </div>`;
 
 let mildew = `<div class="col-sm-12">
-<p class="pestheading">
+<p class="pestheading" id="pestheading">
     Downy Mildew & Powdery Mildew
 </p>
 <div class="pestimagediv">
@@ -134,7 +134,7 @@ let mildew = `<div class="col-sm-12">
 </div>`;
 
 let nute = `<div class="col-sm-12">
-<p class="pestheading">
+<p class="pestheading" id="pestheading">
     Nutrient deficiency
 </p>
 <div class="pestimagediv">
