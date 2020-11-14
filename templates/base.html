@@ -88,7 +88,8 @@
               class="fab fa-twitter-square footer-icon" aria-hidden="true"></i></a>
           <a href="#" target="_blank"><i class="fab fa-instagram-square footer-icon" aria-hidden="true"></i></a>
           <div class="copyright-footer">Copyright-&copy;
-            <script>document.write(new Date().getFullYear()); </script> East Bristol Hops</div>
+            <script>document.write(new Date().getFullYear()); </script> East Bristol Hops <a class="signupbutton"
+            href="{{ url_for ('terms', pagefrom='index') }}">-Terms & Consitions-Privacy Policy</a></div>
         </div>
       </div>
     </div>
@@ -97,6 +98,7 @@
   <!--=============================================== Java Script ===================================================-->
 
   {% block script %}
+  <script type='text/javascript' src='/static/js/redirect.js'></script>
   {% endblock %}
 
 </body>

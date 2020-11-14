@@ -35,10 +35,18 @@ def contact():
                            background='background_image_contact')
 
 
+# default incase the subscribe page is accessed the url bar or external link
+@app.route('/subscribe/', defaults={'pagefrom': None})
 @app.route('/subscribe/<pagefrom>')
 def subscribe(pagefrom):
     return render_template("subscribe.html", page_title="Subscribe To Mailing\
                            List", background='background_image_mailinglist',
+                           page_from=pagefrom)
+
+
+@app.route('/terms/<pagefrom>')
+def terms(pagefrom):
+    return render_template("termsofuse.html", page_title="Terms & Conditions",
                            page_from=pagefrom)
 
 

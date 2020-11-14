@@ -9,7 +9,7 @@ function passedpage(page_from){
 the css has gone from hidden to block then it is executed */
 var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutationRecord) {
-        document.getElementById('redirectToWebsiteButton').innerHTML = `<button class="btn btn-secondary buttonsclick button" onclick="backbut(globalpagename)" >Back</button>`;
+        document.getElementById('redirectToWebsiteButton').innerHTML = `<button class="btn btn-secondary buttonsclick button" onclick="backbut()" >Back</button>`;
     });    
 });
 var target = document.getElementById('mce-error-response');
@@ -44,5 +44,11 @@ function backbut(){
     }
     else if (globalpagename == 'contact'){
         window.location.replace(Flask.url_for('contact'));
+    }
+    else if (globalpagename == 'subscribe'){
+        window.location.replace(Flask.url_for('subscribe'));
+    }
+    else if (globalpagename == 'None'){
+        window.location.replace(Flask.url_for('index'));
     }
 }

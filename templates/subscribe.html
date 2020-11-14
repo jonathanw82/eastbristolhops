@@ -29,6 +29,9 @@
                         placeholder="First Name">
                     <input type="text" value="" name="LNAME" class="required form-control" id="mce-LNAME"
                         placeholder="Last Name">
+                    <input type="checkbox" id="terms" name="terms" value="terms" required>
+                    <label for="terms">Accept, you have read and agree to our Terms & Conditions click<a
+                        href="{{ url_for ('terms', pagefrom='subscribe') }}"> Here</a></label>
                     <div class="row">
                         <div class="col-sm-12 responsediv">
                             <div class="responsefromapi" id="mce-error-response" style="display:none"></div>
@@ -38,13 +41,14 @@
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
                             name="b_80bf76e9dfc08c46f8b2b9416_27ea01d4c6" tabindex="-1" value=""></div>
-                        <div class="row">
-                            <div class="col-sm-12" id="subscribeButton">
-                                <button type="submit" value="Subscribe" name="subscribe"
-                                 class="btn btn-secondary button buttonsclick" onclick="passedpage('{{page_from}}')">Subscribe</button>
-                                 <span id="backbuttondiv"><span id="redirectToWebsiteButton"></span></span>
-                            </div>
+                    <div class="row">
+                        <div class="col-sm-12" id="subscribeButton">
+                            <button type="submit" value="Subscribe" name="subscribe"
+                                class="btn btn-secondary button buttonsclick"
+                                onclick="passedpage('{{page_from}}')">Subscribe</button>
+                            <span id="backbuttondiv"><span id="redirectToWebsiteButton"></span></span>
                         </div>
+                    </div>
                     <div class="redirectMessageDiv">
                         <span id="autoRedirectMessage"></span>
                     </div>

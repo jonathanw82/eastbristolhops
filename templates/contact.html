@@ -21,7 +21,8 @@
             <h1 class="contactheading">Contact Us</h1>
             <p class="contactsubheading">
                 Please fill out this form and a member of our team will be in touch as soon as possible.<br>
-                If it's the mailing list signup you are looking for click<a class="signupbutton" href="{{ url_for('subscribe', pagefrom='contact')}}"> Here!</a>
+                If it's the mailing list signup you are looking for click<a class="signupbutton"
+                    href="{{ url_for('subscribe', pagefrom='contact')}}"> Here!</a>
             </p>
         </div>
     </div>
@@ -44,6 +45,10 @@
                     </select>
                     <textarea rows="5" name="message" id="projectsummery" placeholder="Message" class="form-control"
                         required></textarea>
+                    <input type="checkbox" id="terms" name="terms" value="terms" required>
+                    <label for="terms">Accept, you have read and agree to our Terms & Conditions click</label><a class="signupbutton"
+                        href="{{ url_for ('terms', pagefrom='contact') }}"> 
+                        Here</a><br>
                     <div class="form-row text-center">
                         <div class="col">
                             <div class="messageSent" id="messageSent"></div>
@@ -62,4 +67,5 @@
 {% endblock %}
 {% block script %}
 <script src="/static/js/email.js"></script>
+<script type='text/javascript' src='/static/js/redirect.js'></script>
 {% endblock %}
