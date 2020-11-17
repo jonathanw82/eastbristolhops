@@ -2,6 +2,7 @@
 {% block title %} {{ page_title }} {% endblock %}
 
 {% block css %}
+    <link rel="stylesheet" href="{{url_for ('static', filename='css/t&c.css')}}" type="text/css">
 {% endblock %}
 
 {% block content %}
@@ -40,7 +41,7 @@
                 If you have any questions about these terms, or would like further information, please contact us via
                 e-mail at eastbristolhops@gmail.co.uk
             </p>
-            
+
             <h3>Website Privacy Policy:</h3>
             <h4>Introduction</h4>
             <p>
@@ -124,16 +125,23 @@
                 modest amount of data specific to the website and your use of it. Most web browsers automatically accept
                 cookies but you can usually modify your browser settings to decline cookies if you prefer; please refer
                 to your browser's help facility for further information.
-                This site uses cookies placed by the user when the mailing list banner is checked.
-                Links to other websites
+                This site uses cookies only necessary to its workings there are,
+
+                <li>T&C banner</li>
+                <li>Mail list signup form banner</li>
+                <li>Mailchimp</li>
+                <li>Fontawsome</li>
+            </p>
+            <h4>Links to other websites</h4>
+            <p>
                 Our website includes links to third party websites. We do not control these third party websites and
                 clicking on these links may allow third parties to collect or share data about you; we would encourage
                 you to familiarise yourself with the privacy policy of any website you visit.
-
             </p>
             <button class="btn btn-secondary button" onclick="passedpage('{{page_from}}'), backbut()">Back</button>
         </div>
     </div>
+    <div class="emptydiv"></div>
 </div>
 
 {% endblock %}

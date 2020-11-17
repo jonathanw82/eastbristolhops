@@ -1,3 +1,4 @@
+
 // when the onclick(clear_modal()) function is called from the news letter signup modal it adds warning=clicked to the session cookie + expiry
 // in this case its 100 days.
 /* number of seconds in a day. 24 * 60 * 60 = 86400 sec, 1 sec = 1000 milliseconds, so after calculating expression,result is in milliseconds
@@ -25,7 +26,8 @@ $(window).scroll(function(){
     .reduce((accumulator, [key, value]) => 
       ({ ...accumulator, [key.trim()]: decodeURIComponent(value) }), 
       {});
-    if (b.signup != 'clicked'){
-        $("#newslettersignup").modal('show');
-    }else {}
+    if (b.gdpr_consent){
+      if (b.signup != 'clicked'){
+          $("#newslettersignup").modal('show');
+      }else {}}
 }});

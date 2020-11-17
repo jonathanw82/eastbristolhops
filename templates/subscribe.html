@@ -29,9 +29,11 @@
                         placeholder="First Name">
                     <input type="text" value="" name="LNAME" class="required form-control" id="mce-LNAME"
                         placeholder="Last Name">
+                    <span class="accepttick">  
                     <input type="checkbox" id="terms" name="terms" value="terms" required>
-                    <label for="terms">Accept, you have read and agree to our Terms & Conditions click<a
-                        href="{{ url_for ('terms', pagefrom='subscribe') }}"> Here</a></label>
+                    <span class="terms" for="terms">Accept, you agree to our <a class="signupbutton"
+                        href="{{ url_for ('terms', pagefrom='contact') }}"> 
+                        Terms & Conditions</a></span></span>  
                     <div class="row">
                         <div class="col-sm-12 responsediv">
                             <div class="responsefromapi" id="mce-error-response" style="display:none"></div>

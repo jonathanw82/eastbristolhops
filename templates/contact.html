@@ -20,7 +20,7 @@
         <div class="col-sm-12">
             <h1 class="contactheading">Contact Us</h1>
             <p class="contactsubheading">
-                Please fill out this form and a member of our team will be in touch as soon as possible.<br>
+                Please fill out this form and a member of our team will be in touch as soon as possible.
                 If it's the mailing list signup you are looking for click<a class="signupbutton"
                     href="{{ url_for('subscribe', pagefrom='contact')}}"> Here!</a>
             </p>
@@ -45,10 +45,11 @@
                     </select>
                     <textarea rows="5" name="message" id="projectsummery" placeholder="Message" class="form-control"
                         required></textarea>
+                    <span class="accepttick">  
                     <input type="checkbox" id="terms" name="terms" value="terms" required>
-                    <label for="terms">Accept, you have read and agree to our Terms & Conditions click</label><a class="signupbutton"
+                    <span class="terms" for="terms">Accept, you agree to our <a class="signupbutton"
                         href="{{ url_for ('terms', pagefrom='contact') }}"> 
-                        Here</a><br>
+                        Terms & Conditions</a></span></span>  
                     <div class="form-row text-center">
                         <div class="col">
                             <div class="messageSent" id="messageSent"></div>

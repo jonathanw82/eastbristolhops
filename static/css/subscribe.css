@@ -88,6 +88,10 @@ a:hover{
     box-shadow: none!important;
 }
 
+.accepttick{
+    padding-left: 5px;
+}
+
 /* ------------------- Media Queries base.html -----------------*/
 
 @media only screen and (min-width: 2560px){
@@ -109,6 +113,9 @@ a:hover{
 @media only screen and (max-width: 768px){
     .formheading{
         font-size: 1.9rem;
+    }
+    .terms{
+        font-size: 0.8rem;
     }
 }  
 

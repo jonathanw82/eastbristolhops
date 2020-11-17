@@ -85,7 +85,7 @@ Footer{
     text-align: center;
     color: black;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 700;
 }
 
@@ -144,6 +144,9 @@ Footer{
    .modal-dialog{
        max-width: 100%;
    }
+   .divspacer{
+    height: 90px;
+}
 }    
     
 @media only screen and (max-width: 375px){
