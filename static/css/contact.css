@@ -16,12 +16,12 @@ footer{
 }
 
 .signupbutton{
-    color:#C6AE34;
+    color:#C6AE34!important;
 }
 
 .signupbutton:hover{
-    text-decoration: none;
-    color:#F79767;
+    text-decoration: none!important;
+    color:#F79767!important;
 }
 
 .accepttick{

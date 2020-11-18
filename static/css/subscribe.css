@@ -22,6 +22,15 @@ footer{
     font-size: 2.5rem;
 }
 
+.signupbutton{
+    color:#C6AE34!important;
+}
+
+.signupbutton:hover{
+    text-decoration: none!important;
+    color:#F79767!important;
+}
+
 #subscribeButton{
     text-align: center;
 }
