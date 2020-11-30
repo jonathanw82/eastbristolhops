@@ -5,6 +5,7 @@ function passedpage(page_from){
     window.globalpagename = page_from;
 }
 
+
 /* This function looks to see if the css has changed in this case if 
 the css has gone from hidden to block then it is executed */
 var observer = new MutationObserver(function(mutations) {
