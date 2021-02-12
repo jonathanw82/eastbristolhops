@@ -16,7 +16,7 @@
             <h1 class="welcomeheading">Welcome to the home of East Bristol Hops Grower's Association Est: 2016</h1>
                 <img class="ebhlandingimage" src="static/media/headerweb.jpg" alt="ebh landing image">
             <p class="landingsubheading">
-                We are an ever-expanding group of like-minded people, who love to grow hop plants and drink quality
+                We are an ever-expanding independent group of like-minded people, who love to grow hop plants and drink quality
                 beer!
             </p>
         </div>
@@ -84,7 +84,7 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="modalimagebox">
-                        <button type="button" class="close" data-dismiss="modal" onclick="clear_modal()"
+                        <button type="button" class="close" data-dismiss="modal" id="newsAcpt" 
                             aria-label="Close">X</button>
                         <img class="modal-ebh-image" src="/static/media/ebhnavheader.png" alt="East bristol hops logo">
                         <h5 class="card-title">
@@ -96,7 +96,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 modal_buttons">
-                        <a class="modal-button" onclick="clear_modal()"
+                        <a class="modal-button" id="newsAcpt"
                             href="{{ url_for('subscribe', pagefrom='index' )}}">Signup!</a>
                     </div>
                 </div>
