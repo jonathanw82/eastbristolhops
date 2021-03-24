@@ -7,7 +7,7 @@ let aphids = `<div class="col-sm-12">
     <div class="pestimagediv">
         <img class="pestimage"
             src="https://images.immediate.co.uk/production/volatile/sites/10/2018/02/4b618c4f-4b55-43db-976d-56c41331876e-837427f.jpg?quality=90&resize=768%2C574"
-            alt="Aphids">
+            alt="Image of Aphids">
     </div>    
     <p>
         Aphids are a common garden pest but they can takeover hop plants, they are also key to quite a
@@ -38,7 +38,7 @@ let spider = `<div class="col-sm-12">
 <div class="pestimagediv">
     <img class="pestimage"
         src="https://onspecialtycrops.files.wordpress.com/2015/08/leaf-bronzing.jpg?w=457&h=347"
-        alt="spider Mites">
+        alt="image of Spider Mites">
 </div>    
 <p>
     Although a little less common than Aphids, The most common species of spider-mites that affect hops is the Two-Spotted Spider Mite. 
@@ -58,7 +58,7 @@ let sooty = ` <div class="col-sm-12">
 <div class="pestimagediv">
     <img class="pestimage"
         src="https://irontreeservice.com/wp-content/uploads/2016/06/Sooty-Mold-350x0-c-default.jpg"
-        alt="Sooty mould">
+        alt="image of Sooty mould">
 </div>        
 <p>
     Sooty mould causes a layer of black mould the covers leaves and cones, it causes the leaves to
@@ -77,7 +77,7 @@ let mosaic = ` <div class="col-sm-12">
 <div class="pestimagediv">
     <img class="pestimage"
         src="https://www.canr.msu.edu/uploads/images/Plant%20Ag/Apple_mosaic_on_hop.jpg"
-        alt="Mosaic Virus">
+        alt="Image of Mosaic Hops Virus">
 </div>        
 <p>
     Caused once again by aphids, mosaic virus or hop mosaic virus is one of the most serious hop
@@ -95,7 +95,7 @@ let vert = ` <div class="col-sm-12">
 </p>
 <div class="pestimagediv">
     <img class="pestimage" src="https://bugwoodcloud.org/images/768x512/0656092.jpg"
-        alt="Verticillium wilt">
+        alt="Image of Verticillium wilt">
 </div>        
 <p>
     This is a soil bourn disease, caused by two types of fungus, it causes yellowing of the leaves
@@ -116,7 +116,7 @@ let mildew = `<div class="col-sm-12">
 <div class="pestimagediv">
     <img class="pestimage"
         src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Downy_and_Powdery_mildew_on_grape_leaf.JPG"
-        alt="Downy mildew">
+        alt="Image of Downy mildew">
 </div>    
 <p>
     Downy Mildew, causes the plant to become stunted. The cones brown and curl and the underside of
@@ -139,7 +139,7 @@ let nute = `<div class="col-sm-12">
 </p>
 <div class="pestimagediv">
     <img class="pestimage" src="https://onspecialtycrops.files.wordpress.com/2015/07/hopperburn.jpg"
-        alt="Nutrient deficiency">
+        alt="Image of Nutrient deficiency in hop plants">
 </div>    
 <p>
     By far the most common problem, other than over or under watering, especially in potted hops plants are nutrient deficiencies. <br>Hops strip the
