@@ -73,6 +73,13 @@ p{
     text-align: center;
 }
 
+/* ---------------- dates for diary -----------------*/
+
+.dates{
+    font-size: 1.4rem;
+    
+}
+
 /* ----------------- Special footer -----------------*/
 
 Footer{
