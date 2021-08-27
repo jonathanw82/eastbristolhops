@@ -57,7 +57,7 @@ let sooty = ` <div class="col-sm-12">
 </p>
 <div class="pestimagediv">
     <img class="pestimage"
-        src="https://irontreeservice.com/wp-content/uploads/2016/06/Sooty-Mold-350x0-c-default.jpg"
+        src="https://extension.usu.edu/pests/ipm/images/ornamental-pest-guide/arthropods/aphid_sooty_mold_comparrison_daren_mueller_iowa_state_university_bugwood.jpg"
         alt="image of Sooty mould">
 </div>        
 <p>
