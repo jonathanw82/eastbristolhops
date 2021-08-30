@@ -143,6 +143,9 @@ Footer{
    }
    .divspacer{
     height: 90px;
+    }
+    .dates{
+    font-size: 1.1rem;
 }
 }    
     
