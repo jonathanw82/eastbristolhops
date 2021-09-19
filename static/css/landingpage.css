@@ -80,6 +80,16 @@ p{
     
 }
 
+.announcevideo{
+    text-align: center;
+}
+.announcevideoplayer{
+    width: 50%; 
+    height: 300px; 
+    overflow: auto;
+}
+
+
 /* ----------------- Special footer -----------------*/
 
 Footer{
