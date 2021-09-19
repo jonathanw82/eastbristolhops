@@ -83,6 +83,7 @@ p{
 .announcevideo{
     text-align: center;
 }
+
 .announcevideoplayer{
     width: 50%; 
     height: 300px; 
@@ -126,6 +127,11 @@ Footer{
 
 
 @media only screen and (max-width: 768px){
+    .announcevideoplayer{
+        width: 60%; 
+        height: 250px; 
+        overflow: auto;
+    }
   
 }    
     
@@ -156,7 +162,10 @@ Footer{
     }
     .dates{
     font-size: 1.1rem;
-}
+    }
+    .announcevideoplayer{
+        width: 80%; 
+    }   
 }    
     
 @media only screen and (max-width: 375px){
@@ -178,6 +187,9 @@ Footer{
     .createdby, #createdby{
        font-size: 0.9rem;
    }
+   .announcevideoplayer{
+    width: 90%; 
+    }  
 }    
     
 @media only screen and (max-width: 320px){
