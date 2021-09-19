@@ -94,7 +94,7 @@ p{
 /* ----------------- Special footer -----------------*/
 
 Footer{
-    position: fixed;
+    /* position: fixed; */
 }
 
 /* --------------------- modal ------------------------*/
